@@ -14,7 +14,7 @@ last_checked: 2026-09-30
 - Limits may count requests per minute, tokens per minute, or requests running at once.
 - Going over usually returns HTTP 429 Too Many Requests.
 - The right response is to wait and retry with backoff, not to retry right away.
-- For luv13's actual limits, see [Limits](/docs/l/limits).
+- For luv13's actual limits, see [Limits](/docs/limits).
 
 ## How it usually works
 
