@@ -26,6 +26,7 @@ A to Z list of every page.
 | Environment Variables | `e/environment-variables.md` | draft |
 | Errors and Status Codes | `e/errors-and-status-codes.md` | draft |
 | Estimating Costs | `e/estimating-costs.md` | draft |
+| FAQ | `f/faq.md` | draft |
 | Few-Shot Prompting | `f/few-shot-prompting.md` | draft |
 | Fine-Tuning | `f/fine-tuning.md` | draft |
 | Finish Reasons | `f/finish-reasons.md` | draft |
