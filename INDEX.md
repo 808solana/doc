@@ -87,6 +87,7 @@ A to Z list of every page.
 | Using Continue | `u/using-continue.md` | draft |
 | Using Cursor | `u/using-cursor.md` | draft |
 | Using the OpenAI SDKs | `u/using-the-openai-sdks.md` | draft |
+| Using VS Code | `u/using-vs-code.md` | draft |
 | Vercel AI SDK | `v/vercel-ai-sdk.md` | draft |
 | Vibe Coding | `v/vibe-coding.md` | draft |
 | What Is a Token | `w/what-is-a-token.md` | draft |
