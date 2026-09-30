@@ -87,6 +87,7 @@ A to Z list of every page.
 | Usage and Billing | `u/usage-and-billing.md` | draft |
 | Using Claude Code | `u/using-claude-code.md` | draft |
 | Using Cline | `u/using-cline.md` | draft |
+| Using Codex | `u/using-codex.md` | draft |
 | Using Continue | `u/using-continue.md` | draft |
 | Using Cursor | `u/using-cursor.md` | draft |
 | Using Open WebUI | `u/using-open-webui.md` | draft |
