@@ -77,6 +77,7 @@ A to Z list of every page.
 | Usage and Billing | `u/usage-and-billing.md` | draft |
 | Using Cline | `u/using-cline.md` | draft |
 | Using Continue | `u/using-continue.md` | draft |
+| Using Cursor | `u/using-cursor.md` | draft |
 | Using the OpenAI SDKs | `u/using-the-openai-sdks.md` | draft |
 | Vercel AI SDK | `v/vercel-ai-sdk.md` | draft |
 | Vibe Coding | `v/vibe-coding.md` | draft |
