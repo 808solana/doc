@@ -21,7 +21,7 @@ All of these were seen live on 2026-09-30 unless marked TODO.
 
 | Code | Body | Cause | What to do |
 |---|---|---|---|
-| 401 | JSON, `invalid_auth` | No key, a wrong key, or the key sent in the wrong header | Send `Authorization: Bearer $LUV13_API_KEY` with a valid key |
+| 401 | JSON, `invalid_auth` | No key, a wrong key, or the key not sent as `Authorization: Bearer` | Send `Authorization: Bearer $LUV13_API_KEY` with a valid key |
 | 404 | HTML "Not Found" | Path doesn't exist: missing `/v1`, a trailing slash such as `/v1/models/`, or an endpoint luv13 doesn't serve | Check the URL against [Endpoints](/docs/e/endpoints) |
 | 405 | HTML "Method Not Allowed" | Right path, wrong method, such as `GET /v1/chat/completions` | Use `POST` for chat completions |
 | 522 | Cloudflare page | luv13's origin servers are unreachable | Retry later with backoff; see [Health Checks](/docs/h/health-checks) |
@@ -36,7 +36,7 @@ All of these were seen live on 2026-09-30 unless marked TODO.
 
 It has three fields inside `error`: `code` (the HTTP status as a number), `message` and `type`. The key is checked before the body is read, so without a valid key even a malformed body returns 401. A 401 therefore doesn't tell you whether the rest of your request is correct.
 
-Only the `Authorization: Bearer` header works. Sending the key in `x-api-key` returns the same 401.
+The documented way to send the key is the `Authorization: Bearer` header. Other headers, such as `x-api-key`, aren't documented by luv13, so don't rely on them.
 
 ## Handling errors in code
 
