@@ -16,6 +16,8 @@ last_checked: 2026-09-30
 - On 2026-09-30 it answered without an API key, so it also works as a quick connectivity check. See [Health Checks](/docs/h/health-checks).
 - Always copy ids from this list. A small typo makes a request fail.
 
+The main page for luv13 models is [Models](/docs/models); this page covers the GET /v1/models endpoint and its response.
+
 ## Example
 
 ```bash

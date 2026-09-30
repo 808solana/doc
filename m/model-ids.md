@@ -15,6 +15,8 @@ last_checked: 2026-09-30
 - Copy ids from `GET /v1/models`. Don't retype them.
 - There are seven ids as of 2026-09-30.
 
+The main page for luv13 models is [Models](/docs/models); this page covers the format of model ids and the mistakes that break them.
+
 ## The seven ids
 
 From live `GET /v1/models` on 2026-09-30, with the display names from luv13.ai/models:
