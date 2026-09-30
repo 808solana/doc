@@ -44,7 +44,7 @@ As listed by live `GET /v1/models` on 2026-09-30:
 | Kimi K3 Fast | `luv13/kimi-k3-fast` |
 | Qwen 3.8 27B | `luv13/qwen-3.8-27b` |
 
-luv13.ai lists a 1M-token context for each. See [Models](/docs/models) for details.
+For each model's details, see [Models](/docs/models).
 
 ## Pricing
 
