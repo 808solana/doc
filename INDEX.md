@@ -30,6 +30,7 @@ A to Z list of every page.
 | System Prompts | `s/system-prompts.md` | draft |
 | Temperature | `t/temperature.md` | draft |
 | Tool Calling | `t/tool-calling.md` | draft |
+| Tool Calling on luv13 | `t/tool-calling-on-luv13.md` | draft |
 | Usage and Billing | `u/usage-and-billing.md` | draft |
 | Using the OpenAI SDKs | `u/using-the-openai-sdks.md` | draft |
 | What Is a Token | `w/what-is-a-token.md` | draft |
