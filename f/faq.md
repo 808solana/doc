@@ -23,7 +23,7 @@ last_checked: 2026-09-30
 Sign in to the [dashboard](https://luv13.ai/dashboard) with Google or email and create one. It's shown once. See [Authentication](/docs/auth).
 
 **Which models can I use?**
-Seven, listed by `GET /v1/models`: `luv13/deepseek-v4-pro`, `luv13/deepseek-v4.1-flash`, `luv13/glm-5.3`, `luv13/glm-5.3-flash`, `luv13/kimi-k3`, `luv13/kimi-k3-fast` and `luv13/qwen-3.8-27b` (as of 2026-09-30). See [Models](/docs/models).
+Seven, listed by `GET /v1/models`: `luv13/deepseek-v4-pro`, `luv13/deepseek-v4.1-flash`, `luv13/glm-5.3`, `luv13/glm-5.3-flash`, `luv13/kimi-k3`, `luv13/kimi-k3-fast` and `luv13/qwen-3.8-27b` (as of 2026-09-30). See [the model list](https://luv13.ai/#models).
 
 **Does my OpenAI code work?**
 Chat completion code does, after changing the base URL, key and model id. Embeddings, the Responses API and other endpoints aren't served. See [Migrating from OpenAI](/docs/m/migrating-from-openai).

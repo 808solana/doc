@@ -45,7 +45,7 @@ If your code builds the client with no arguments, you can set `OPENAI_BASE_URL=h
 
 1. Find every place a model name is hard-coded and replace it with a luv13 id. See [Model IDs](/docs/m/model-ids).
 2. Remove or reroute calls to endpoints luv13 doesn't serve. See [Endpoints](/docs/e/endpoints).
-3. If you send images, pick a model that accepts them. See [Models](/docs/models).
+3. If you send images, pick a model that accepts them. See [the model list](https://luv13.ai/#models).
 4. Test the optional features you depend on (streaming, tools, JSON output). luv13 hasn't published per-model support yet. See [Request Parameters](/docs/r/request-parameters).
 5. Update cost math: one rate, $0.33 per 1M tokens, input the same as output. See [Estimating Costs](/docs/e/estimating-costs).
 

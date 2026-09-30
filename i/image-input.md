@@ -61,4 +61,4 @@ luv13.ai/models also lists video input for Kimi K3, Kimi K3 Fast, GLM-5.3 Flash 
 
 <!-- TODO: ask the operator for the request format for video input, and add an example once verified. -->
 
-For each model's input types, see [Models](/docs/models).
+For each model's input types, see [the model list](https://luv13.ai/#models).
