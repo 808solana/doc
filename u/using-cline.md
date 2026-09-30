@@ -23,8 +23,8 @@ last_checked: 2026-09-30
 You need:
 
 - Cline installed in your editor. Cline's docs list VS Code, Cursor, Windsurf, VSCodium, Antigravity and JetBrains. In VS Code, open the Extensions view, search for Cline and click **Install**.
-- A luv13 API key. See [Authentication](/docs/a/auth).
-- The model id `luv13/glm-5.3-flash`, from the live list at `https://api.luv13.ai/v1/models`.
+- A luv13 API key. The [Quickstart](/docs/q/quickstart) shows how to get one.
+- The model id `luv13/glm-5.3-flash`, from the live list at `https://api.luv13.ai/v1/models`. See [GLM-5.3 Flash](/docs/m/glm-5-3-flash) for details on the model.
 
 Facts about luv13 that affect this setup:
 

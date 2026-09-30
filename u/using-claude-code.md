@@ -55,7 +55,7 @@ On 2026-09-30 this returned HTTP `404` with an HTML "404 Not Found" page. Settin
 
 ## Check that your luv13 key works
 
-Your key and model work fine with tools that speak OpenAI's format. Confirm that with the standard checks:
+Your key and model work fine with tools that speak OpenAI's format. If you don't have a key yet, the [Quickstart](/docs/q/quickstart) shows how to get one. The model used below is [GLM-5.3 Flash](/docs/m/glm-5-3-flash). Confirm both with the standard checks:
 
 Run these two checks in a terminal before you touch the tool. They take a few seconds and rule out key and model problems.
 

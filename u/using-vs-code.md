@@ -23,8 +23,8 @@ last_checked: 2026-09-30
 You need:
 
 - VS Code. These steps follow the VS Code docs page "AI language models in VS Code", dated 9/30/2026. The latest stable VS Code release that day was 1.140.0.
-- A luv13 API key. See [Authentication](/docs/a/auth).
-- The model id `luv13/glm-5.3-flash`, from the live list at `https://api.luv13.ai/v1/models`.
+- A luv13 API key. The [Quickstart](/docs/q/quickstart) shows how to get one.
+- The model id `luv13/glm-5.3-flash`, from the live list at `https://api.luv13.ai/v1/models`. See [GLM-5.3 Flash](/docs/m/glm-5-3-flash) for details on the model.
 - Optional: a GitHub account. VS Code's docs say BYOK models work without a GitHub account or Copilot plan, but some features then need extra setup (see "Utility tasks" below).
 - On Copilot Business or Enterprise: your admin must enable the **Bring Your Own Language Model Key in VS Code** policy on GitHub.com.
 
