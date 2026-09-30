@@ -42,16 +42,19 @@ A to Z list of every page.
 | JSON Mode | `j/json-mode.md` | draft |
 | Kimi K3 | `k/kimi-k3.md` | draft |
 | Kimi K3 Fast | `k/kimi-k3-fast.md` | draft |
+| LangChain | `l/langchain.md` | draft |
 | Latency | `l/latency.md` | draft |
 | Listing Models | `l/listing-models.md` | draft |
 | Migrating from OpenAI | `m/migrating-from-openai.md` | draft |
 | Model Fallback | `m/model-fallback.md` | draft |
 | Model IDs | `m/model-ids.md` | draft |
 | Model Routing | `m/model-routing.md` | draft |
+| n8n | `n/n8n.md` | draft |
 | Node.js Fetch | `n/nodejs-fetch.md` | draft |
 | Nucleus Sampling | `n/nucleus-sampling.md` | draft |
 | Open-Weight Models | `o/open-weight-models.md` | draft |
 | OpenAI-Compatible APIs | `o/openai-compatible-apis.md` | draft |
+| OpenCode | `o/opencode.md` | draft |
 | Prompt Engineering | `p/prompt-engineering.md` | draft |
 | Prompt Injection | `p/prompt-injection.md` | draft |
 | Python Example | `p/python-example.md` | draft |
@@ -81,9 +84,11 @@ A to Z list of every page.
 | Using Cline | `u/using-cline.md` | draft |
 | Using Continue | `u/using-continue.md` | draft |
 | Using the OpenAI SDKs | `u/using-the-openai-sdks.md` | draft |
+| Vercel AI SDK | `v/vercel-ai-sdk.md` | draft |
 | Vibe Coding | `v/vibe-coding.md` | draft |
 | What Is a Token | `w/what-is-a-token.md` | draft |
 | What Is luv13 | `w/what-is-luv13.md` | draft |
 | XML Prompts | `x/xml-prompts.md` | draft |
 | YAML Config | `y/yaml-config.md` | draft |
+| Zed Editor | `z/zed-editor.md` | draft |
 | Zero-Shot Prompting | `z/zero-shot-prompting.md` | draft |
