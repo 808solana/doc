@@ -94,7 +94,7 @@ Qwen (Alibaba).
 Yes. Qwen released them under the Apache 2.0 license.
 
 **Is the context window a luv13 limit?**
-No. It's the maker's published figure. luv13 hasn't published its own per-model limits; see [Limits](/docs/l/limits).
+No. It's the maker's published figure. luv13 hasn't published its own per-model limits; see [Limits](/docs/limits).
 
 **How much does it cost on luv13?**
 See [Pricing](/docs/p/pricing).

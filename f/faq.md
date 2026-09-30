@@ -56,7 +56,7 @@ Not directly; luv13 rejects cross-origin browser calls, and your key would be ex
 Both are requested in the OpenAI format, but per-model support isn't published yet. See [Streaming on luv13](/docs/s/streaming-on-luv13) and [Tool Calling on luv13](/docs/t/tool-calling-on-luv13).
 
 **What are the rate limits?**
-See [Limits](/docs/l/limits). luv13 runs on single-provider capacity, so under load requests can queue or fail; retry with backoff.
+See [Limits](/docs/limits). luv13 runs on single-provider capacity, so under load requests can queue or fail; retry with backoff.
 
 **Is there a status page?**
 Not published yet. `GET /v1/models` works as a free check; see [Health Checks](/docs/h/health-checks).
