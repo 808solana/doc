@@ -36,6 +36,7 @@ A to Z list of every page.
 | Input vs. Output Tokens | `i/input-vs-output-tokens.md` | draft |
 | JavaScript Example | `j/javascript-example.md` | draft |
 | JSON Mode | `j/json-mode.md` | draft |
+| Keys and Accounts | `k/keys-and-accounts.md` | draft |
 | LangChain | `l/langchain.md` | draft |
 | Latency | `l/latency.md` | draft |
 | Listing Models | `l/listing-models.md` | draft |
