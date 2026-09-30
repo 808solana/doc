@@ -37,6 +37,7 @@ A to Z list of every page.
 | Open-Weight Models | `o/open-weight-models.md` | draft |
 | OpenAI-Compatible APIs | `o/openai-compatible-apis.md` | draft |
 | Prompt Engineering | `p/prompt-engineering.md` | draft |
+| Python Example | `p/python-example.md` | draft |
 | Python Requests | `p/python-requests.md` | draft |
 | Quantization | `q/quantization.md` | draft |
 | Qwen 3.8 27B | `q/qwen-3-8-27b.md` | draft |
