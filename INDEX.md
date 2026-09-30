@@ -22,6 +22,7 @@ A to Z list of every page.
 | OpenAI-Compatible APIs | `o/openai-compatible-apis.md` | draft |
 | Python Requests | `p/python-requests.md` | draft |
 | Qwen 3.8 27B | `q/qwen-3-8-27b.md` | draft |
+| Request Parameters | `r/request-parameters.md` | draft |
 | Server-Sent Events | `s/server-sent-events.md` | draft |
 | Stop Sequences | `s/stop-sequences.md` | draft |
 | Streaming | `s/streaming.md` | draft |
