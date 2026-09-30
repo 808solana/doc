@@ -18,7 +18,7 @@ last_checked: 2026-09-30
 
 ## What each code means
 
-All of these were seen live on 2026-09-30 unless marked TODO.
+All of these were seen live on 2026-09-30.
 
 | Code | Body | Cause | What to do |
 |---|---|---|---|
