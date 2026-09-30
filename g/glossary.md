@@ -1,6 +1,6 @@
 ---
 title: Glossary
-definition: The luv13 glossary defines the terms, ids and response fields you meet when using the luv13 API, each in one line.
+definition: The luv13 glossary defines the terms, ids and fields you meet when using the luv13 API, each in one line.
 category: luv13
 author: Ink
 status: draft
@@ -9,9 +9,9 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- Every entry here is specific to how luv13 uses the term.
-- Fields marked "OpenAI format" follow the OpenAI chat completions layout; luv13 hasn't confirmed every one with a live authenticated response.
-- For general concepts such as tokens and context windows, see [What Is a Token](/docs/w/what-is-a-token) and [Context Window](/docs/c/context-window).
+- Every entry is specific to luv13 and was checked on luv13.ai or the live API on 2026-09-30.
+- For general concepts, see [What Is a Token](/docs/w/what-is-a-token) and [Context Window](/docs/c/context-window).
+- For the models themselves, see [the model list](https://luv13.ai/#models).
 
 ## Terms
 
@@ -24,26 +24,19 @@ last_checked: 2026-09-30
 | Prepaid credit | USD balance topped up by card from $5; usage draws it down |
 | Dashboard | luv13.ai/dashboard, where you sign in, create keys, top up and see usage |
 | `invalid_auth` | The `error.type` in a 401 response: missing or wrong key |
-| Single-provider capacity | luv13's setup; under saturation, requests queue or fail |
-| Modalities | What a model accepts and returns; every luv13 model returns text |
+| Single-provider capacity | How luv13 runs; when it's saturated, requests queue or fail |
 
-## Response fields
+## Fields
 
 | Field | Where | Meaning |
 |---|---|---|
 | `data[].id` | `GET /v1/models` | A model id |
+| `data[].object` | `GET /v1/models` | `model` |
 | `data[].owned_by` | `GET /v1/models` | `luv13` for every model |
-| `data[].created` | `GET /v1/models` | `1700000000` for every model; not a real add date |
+| `data[].created` | `GET /v1/models` | `1700000000` for every model, so not a real add date |
 | `error.code` | Error body | The HTTP status as a number, such as `401` |
 | `error.message` | Error body | Short text, such as `unauthorized` |
-| `error.type` | Error body | Machine-readable kind, such as `invalid_auth` |
-| `choices[0].message.content` | Chat completion (OpenAI format) | The reply text |
-| `choices[0].finish_reason` | Chat completion (OpenAI format) | Why the reply stopped; see [Finish Reasons](/docs/f/finish-reasons) |
-| `usage.prompt_tokens` | Chat completion (OpenAI format) | Input tokens |
-| `usage.completion_tokens` | Chat completion (OpenAI format) | Output tokens |
-| `usage.total_tokens` | Chat completion (OpenAI format) | The total the $0.33 per 1M rate applies to |
-
-<!-- TODO: verify the chat completion fields against a real authenticated luv13 response. -->
+| `error.type` | Error body | The kind of error, such as `invalid_auth` |
 
 See one live:
 

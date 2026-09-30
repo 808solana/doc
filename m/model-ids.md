@@ -33,7 +33,7 @@ From live `GET /v1/models` on 2026-09-30, with the display names from luv13.ai/m
 - **Dropping the prefix.** Use `luv13/kimi-k3`, not `kimi-k3`.
 - **Swapping dots and hyphens.** It's `deepseek-v4.1-flash` (dot in the version) but `deepseek-v4-pro` (no dot).
 - **Capital letters.** Every id is lowercase.
-- **Using an id from another provider.** Ids you've used elsewhere won't work on luv13.
+- **Using an id from another provider.** Only the seven `luv13/` ids are listed; use one of them.
 
 <!-- TODO: confirm with the operator what status and body luv13 returns for an unknown model id, and whether ids are matched case-sensitively. -->
 
@@ -45,4 +45,4 @@ curl -s https://api.luv13.ai/v1/models | jq -r '.data[].id'
 
 Some tools want the model name in a settings box. Paste the full id, including `luv13/`.
 
-For each model's details, see the model list at [luv13.ai/#models](https://luv13.ai/#models). Price is on [Pricing](/docs/pricing).
+For each model's details, see the model list at [luv13.ai/#models](https://luv13.ai/#models). Price is on [Pricing](/docs/p/pricing).

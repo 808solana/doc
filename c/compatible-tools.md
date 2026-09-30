@@ -26,7 +26,6 @@ Enter the base URL exactly. Don't add `/chat/completions`; the tool adds it. See
 
 ## Guides
 
-- Cursor: [Cursor guide](/docs/guides/cursor)
 - Cline: [Using Cline](/docs/u/using-cline)
 - Any tool built on the OpenAI SDKs: [Using the OpenAI SDKs](/docs/u/using-the-openai-sdks)
 

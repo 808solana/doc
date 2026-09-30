@@ -39,7 +39,7 @@ def ask(messages):
     raise last_error
 
 reply = ask([{"role": "user", "content": "ping"}])
-print(reply.model, reply.choices[0].message.content)
+print(reply.choices[0].message.content)
 ```
 
 Each model is tried with the SDK's own retries first (2 by default), so a brief blip doesn't trigger a switch. See [Retrying Requests](/docs/r/retrying-requests).
@@ -47,5 +47,6 @@ Each model is tried with the SDK's own retries first (2 by default), so a brief 
 ## Things to keep in mind
 
 - Different models give different answers. If output format matters, validate it after a fallback.
-- Log which model answered. In the OpenAI format, the response's `model` field names it.
+- Log which id you sent, so you know which model answered.
+- For choosing between models on purpose (for example by task), see [Model Routing](/docs/m/model-routing).
 - Check `GET /v1/models` now and then. If an id in your list disappears, replace it. See [Listing Models](/docs/l/listing-models).

@@ -21,17 +21,16 @@ A report with these details is much quicker to act on:
 - The time of the request, with your time zone
 - The endpoint and the model id, for example `POST /v1/chat/completions` with `luv13/glm-5.3-flash`
 - The HTTP status code and the error body
-- The `cf-ray` response header, if you have it (see [HTTP Headers](/docs/h/http-headers))
 - The first few characters of your key at most, such as `sk-luv13-ab`, if the team needs to find your account
 
-Get the status, body and `cf-ray` in one go:
+Get the status and body in one go:
 
 ```bash
 curl -s -D - https://api.luv13.ai/v1/chat/completions \
   -H "Authorization: Bearer $LUV13_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"model": "luv13/glm-5.3-flash", "messages": [{"role": "user", "content": "ping"}]}' \
-  | grep -iE "^HTTP|^cf-ray|error"
+  | grep -iE "^HTTP|error"
 ```
 
 ## Check first

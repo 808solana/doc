@@ -1,6 +1,6 @@
 ---
 title: Request Parameters
-definition: Request parameters are the fields you put in the JSON body of a luv13 chat completion request to choose the model, pass the conversation and shape the reply.
+definition: Request parameters are the fields in the JSON body of a luv13 chat completion request; model and messages are the ones luv13 documents today.
 category: luv13
 author: Ink
 status: draft
@@ -9,48 +9,38 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- Two parameters are required: `model` and `messages`.
-- `model` must be one of the seven ids from `GET /v1/models`, such as `luv13/kimi-k3`.
-- luv13 uses the OpenAI chat completions format, so optional parameters use OpenAI's names.
-- luv13 hasn't published which optional parameters each model honors. Test any you rely on.
+- luv13.ai/docs shows two fields in its example request: `model` and `messages`.
+- `model` must be one of the seven ids from `GET /v1/models`, such as `luv13/glm-5.3-flash`.
+- luv13 uses the OpenAI chat completions format, so any other field uses its OpenAI name.
+- luv13 hasn't published which optional fields each model honors. Test any you rely on.
 
-## Required
+## Documented fields
 
-| Parameter | Type | What it does |
-|---|---|---|
-| `model` | string | The model id, exactly as listed by `GET /v1/models`. See [Model IDs](/docs/m/model-ids). |
-| `messages` | array | The conversation, oldest first. Each item has a `role` and `content`. |
-
-## Common optional parameters
-
-These are the OpenAI names. Whether luv13 passes each one through to every model is unconfirmed.
-
-<!-- TODO: confirm with the operator which of these luv13 honors, per model, and what happens to an unsupported one (ignored or rejected). -->
-
-| Parameter | In the OpenAI format it... |
+| Field | What it is |
 |---|---|
-| `max_tokens` | Caps how many output tokens the reply can use. Useful for keeping cost down, since output is billed at the same $0.33 per 1M rate as input. |
-| `temperature` | Sets randomness. Lower is more predictable. |
-| `top_p` | An alternative way to limit randomness. Change this or `temperature`, not both. |
-| `stop` | One or more strings that end the reply when the model produces them. |
-| `stream` | Returns the reply in pieces. See [Streaming on luv13](/docs/s/streaming-on-luv13). |
-| `tools`, `tool_choice` | Let the model ask to call your functions. See [Tool Calling on luv13](/docs/t/tool-calling-on-luv13). |
-| `response_format` | Asks for JSON output. See [Structured Outputs](/docs/s/structured-outputs). |
-
-## Example
+| `model` | The model id, exactly as `GET /v1/models` lists it. See [Model IDs](/docs/m/model-ids). |
+| `messages` | The conversation, as a list of messages with a `role` and `content`. |
 
 ```bash
 curl https://api.luv13.ai/v1/chat/completions \
   -H "Authorization: Bearer $LUV13_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{
-    "model": "luv13/glm-5.3-flash",
-    "messages": [{"role": "user", "content": "Name three primary colors."}],
-    "max_tokens": 50,
-    "temperature": 0.2
-  }'
+  -d '{"model": "luv13/glm-5.3-flash", "messages": [{"role": "user", "content": "ping"}]}'
 ```
 
-## Checking a parameter yourself
+## Optional fields
 
-Send the same prompt twice, once with the parameter and once without, and compare. For `max_tokens`, a small value should give a shorter reply and a lower `usage.completion_tokens`. If nothing changes, the parameter may not be honored for that model.
+These OpenAI fields have general pages. Whether luv13 honors each one isn't published yet.
+
+| Field | General page |
+|---|---|
+| `temperature` | [Temperature](/docs/t/temperature) |
+| `top_p` | [Nucleus Sampling](/docs/n/nucleus-sampling) |
+| `stop` | [Stop Sequences](/docs/s/stop-sequences) |
+| `stream` | [Streaming on luv13](/docs/s/streaming-on-luv13) |
+| `tools` | [Tool Calling on luv13](/docs/t/tool-calling-on-luv13) |
+| `response_format` | [Structured Outputs](/docs/s/structured-outputs) |
+
+<!-- TODO: fill in from the operator's answer on which parameters luv13 honors, per model, and what happens to an unsupported one. -->
+
+To test a field yourself, send the same prompt with and without it and compare the replies.

@@ -12,7 +12,7 @@ last_checked: 2026-09-30
 - luv13 speaks the OpenAI request and response format, so most OpenAI tools and SDKs work with it after three changes: the base URL, the API key and the model id.
 - The base URL is `https://api.luv13.ai/v1`.
 - One API key works for all seven models. The current list is always at `GET /v1/models`.
-- Every model costs a flat $0.33 per 1M tokens, and input costs the same as output. See [Pricing](/docs/pricing).
+- Every model costs a flat $0.33 per 1M tokens, and input costs the same as output. See [Pricing](/docs/p/pricing).
 - Billing is prepaid: you top up credit in the dashboard and usage draws it down. There's no subscription.
 
 ## How it works
@@ -48,11 +48,11 @@ For each model's details, see [the model list](https://luv13.ai/#models).
 
 ## Pricing
 
-Every model costs a flat $0.33 per 1M tokens, and input tokens cost the same as output tokens (checked against live luv13.ai/pricing on 2026-09-30). For example, 800,000 input tokens plus 200,000 output tokens is 1.0M tokens, which costs $0.33. The [Pricing](/docs/pricing) page is the source of truth.
+Every model costs a flat $0.33 per 1M tokens, and input tokens cost the same as output tokens (checked against live luv13.ai/pricing on 2026-09-30). For example, 800,000 input tokens plus 200,000 output tokens is 1.0M tokens, which costs $0.33. The [Pricing](/docs/p/pricing) page is the source of truth.
 
 ## Getting started
 
-1. Get an API key from the dashboard. See [Authentication](/docs/auth).
+1. Get an API key from the dashboard. See [Keys and Accounts](/docs/k/keys-and-accounts) and [Authentication](/docs/a/auth).
 2. Point your client at `https://api.luv13.ai/v1`.
 3. Pick a model id from `GET /v1/models` and send a request.
 
@@ -63,4 +63,4 @@ curl https://api.luv13.ai/v1/chat/completions \
   -d '{"model": "luv13/glm-5.3-flash", "messages": [{"role": "user", "content": "ping"}]}'
 ```
 
-For a full first request, see [Quickstart](/docs/quickstart).
+For the request format, see [Chat Completions](/docs/c/chat-completions).

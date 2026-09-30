@@ -34,10 +34,10 @@ curl -s -m 20 -o /dev/null -w "%{http_code}\n" https://api.luv13.ai/v1/models
 curl -s -m 60 -w "\nHTTP %{http_code}\n" https://api.luv13.ai/v1/chat/completions \
   -H "Authorization: Bearer $LUV13_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"model": "luv13/glm-5.3-flash", "messages": [{"role": "user", "content": "ping"}], "max_tokens": 1}'
+  -d '{"model": "luv13/glm-5.3-flash", "messages": [{"role": "user", "content": "ping"}]}'
 ```
 
-This spends a handful of tokens, a tiny fraction of a cent at $0.33 per 1M. A `401` means the key is wrong; anything else, see [Errors and Status Codes](/docs/e/errors-and-status-codes).
+When the key works, this is billed like any request, a tiny fraction of a cent at $0.33 per 1M tokens. A `401` means the key is wrong; anything else, see [Errors and Status Codes](/docs/e/errors-and-status-codes).
 
 ## Monitoring
 

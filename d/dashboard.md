@@ -42,4 +42,4 @@ curl https://api.luv13.ai/v1/chat/completions \
   -d '{"model": "luv13/glm-5.3-flash", "messages": [{"role": "user", "content": "ping"}]}'
 ```
 
-The step-by-step first request is on [Quickstart](/docs/quickstart), and how keys are sent is on [Authentication](/docs/auth).
+How keys are sent is on [Keys and Accounts](/docs/k/keys-and-accounts) and [Authentication](/docs/a/auth).

@@ -12,7 +12,7 @@ last_checked: 2026-09-30
 - Change three things: base URL to `https://api.luv13.ai/v1`, API key to your `sk-luv13-` key, and `model` to a luv13 id such as `luv13/glm-5.3-flash`.
 - luv13 serves two endpoints: `GET /v1/models` and `POST /v1/chat/completions`. Code that only uses chat completions moves over most easily.
 - Endpoints such as `/v1/embeddings`, `/v1/completions` and `/v1/responses` return 404 on luv13. Keep those calls where they are or remove them.
-- The official OpenAI Python and Node.js SDKs work unchanged apart from the client settings (checked on 2026-09-30).
+- The official OpenAI Python and Node.js SDKs connect with only the client settings changed: on 2026-09-30 both listed luv13's models and returned luv13's 401 error without a key.
 
 ## The three changes
 
@@ -46,7 +46,7 @@ If your code builds the client with no arguments, you can set `OPENAI_BASE_URL=h
 1. Find every place a model name is hard-coded and replace it with a luv13 id. See [Model IDs](/docs/m/model-ids).
 2. Remove or reroute calls to endpoints luv13 doesn't serve. See [Endpoints](/docs/e/endpoints).
 3. If you send images, pick a model that accepts them. See [the model list](https://luv13.ai/#models).
-4. Test the optional features you depend on (streaming, tools, JSON output). luv13 hasn't published per-model support yet. See [Request Parameters](/docs/r/request-parameters).
+4. Test the optional features you depend on, such as streaming, tools and JSON output. luv13 hasn't published per-model support yet. See [Request Parameters](/docs/r/request-parameters).
 5. Update cost math: one rate, $0.33 per 1M tokens, input the same as output. See [Estimating Costs](/docs/e/estimating-costs).
 
 <!-- TODO: confirm with the operator which OpenAI request fields luv13 ignores or rejects, so this checklist can name them. -->

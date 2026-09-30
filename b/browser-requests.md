@@ -56,7 +56,6 @@ http.createServer(async (req, res) => {
     body: JSON.stringify({
       model: "luv13/glm-5.3-flash",
       messages: [{ role: "user", content: String(message) }],
-      max_tokens: 500,
     }),
   });
   res.writeHead(upstream.status, { "Content-Type": "application/json" });
@@ -64,7 +63,7 @@ http.createServer(async (req, res) => {
 }).listen(3000);
 ```
 
-The server fixes the model and caps `max_tokens`, so visitors can't choose an expensive request on your balance. In production, also add your own login or rate limit, since anyone who can reach `/api/chat` spends your credit.
+The server fixes the model, so visitors can't pick what runs on your balance. In production, also add your own login or rate limit, since anyone who can reach `/api/chat` spends your credit.
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 title: Finish Reasons
-definition: A finish reason is the value in choices[0].finish_reason of a luv13 chat completion that tells you why the model stopped writing.
+definition: A finish reason is the field in an OpenAI-format chat completion that says why the model stopped; which values luv13 returns isn't verified yet.
 category: luv13
 author: Ink
 status: draft
@@ -9,37 +9,22 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- Every choice in an OpenAI-format chat completion has a `finish_reason`.
-- `stop` means the model finished on its own or hit one of your `stop` strings.
-- `length` means the reply was cut off by `max_tokens` or the context limit. The text is incomplete.
-- `tool_calls` means the model wants your code to run a function.
-- Check it on every response, especially before parsing JSON.
+- luv13 uses the OpenAI chat completions format, in which each choice carries a `finish_reason`.
+- Which values luv13 returns, per model, hasn't been verified or published yet.
+- Check the field on every response before trusting that a reply is complete.
 
-<!-- TODO: verify with a real authenticated luv13 response which finish_reason values each model returns. -->
+<!-- TODO: verify with a real authenticated luv13 response which finish_reason values each model returns, then add the table of values. -->
 
-## The values
+## In general
 
-These are the OpenAI values. luv13 uses the OpenAI format, but which values each model returns is unconfirmed.
+In the OpenAI format, `stop` means the model ended on its own and `length` means it ran out of room, so the text is cut off. See [Stop Sequences](/docs/s/stop-sequences) and [Context Window](/docs/c/context-window).
 
-| Value | Meaning | What to do |
-|---|---|---|
-| `stop` | Natural end, or a `stop` string was hit | Use the reply |
-| `length` | Ran out of room | Raise `max_tokens`, shorten the prompt, or ask the model to continue |
-| `tool_calls` | The model is requesting a function call | Run it and send the result back; see [Tool Calling on luv13](/docs/t/tool-calling-on-luv13) |
-| `content_filter` | Output was withheld by a filter | Rephrase the request |
+## Check it
 
-## Where to find it
-
-Without streaming, it's in `choices[0].finish_reason`. With streaming, it's `null` on every chunk except the last one, which carries the final value. See [Streaming on luv13](/docs/s/streaming-on-luv13).
-
-## Example check
-
-```python
-choice = response.choices[0]
-if choice.finish_reason == "length":
-    print("Reply was cut off; raise max_tokens.")
+```bash
+curl -s https://api.luv13.ai/v1/chat/completions \
+  -H "Authorization: Bearer $LUV13_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model": "luv13/glm-5.3-flash", "messages": [{"role": "user", "content": "ping"}]}' \
+  | jq '.choices[].finish_reason'
 ```
-
-A cut-off reply is still billed for the tokens it used, at $0.33 per 1M. Setting `max_tokens` too low wastes money on replies you can't use.
-
-<!-- TODO: confirm with the operator that luv13 bills replies cut off at max_tokens (expected, since they aren't failed or empty calls). -->

@@ -38,7 +38,7 @@ Seen on 2026-09-30:
 |---|---|---|
 | `content-type` | `application/json` for API responses, `text/html` for 404 and 405 | Decide whether to parse the body as JSON |
 | `server` | `cloudflare` | Shows the request went through Cloudflare |
-| `cf-ray` | A request id | Quote it with the time when you report a problem to hi@luv13.ai |
+| `cf-ray` | A Cloudflare request id | Identifies that request at Cloudflare |
 
 No rate-limit headers (such as `x-ratelimit-remaining`) or `retry-after` were seen on those responses.
 

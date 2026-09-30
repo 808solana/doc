@@ -56,8 +56,4 @@ curl --retry 5 --retry-delay 0 --retry-max-time 120 \
 
 `--retry-delay 0` keeps curl's own doubling backoff. curl retries timeouts, 408, 429, 500, 502, 503, 504 and a few other codes, but not 522. For 522, use a loop or the SDKs.
 
-## A retry can repeat work
-
-If a timeout happens after luv13 finished the reply, a retry runs the request again and the second reply is billed too. For long requests, set a generous timeout instead of a short one with many retries.
-
 <!-- TODO: confirm with the operator whether a request the client times out on is charged if the model finished, and whether luv13 supports an idempotency key. -->

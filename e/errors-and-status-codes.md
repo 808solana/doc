@@ -57,4 +57,4 @@ curl -s -w "\nHTTP %{http_code}\n" https://api.luv13.ai/v1/chat/completions \
 
 With no key, this prints the 401 body above and `HTTP 401`.
 
-For limits, see [Limits](/docs/limits).
+For limits, see [Limits](/docs/l/limits).

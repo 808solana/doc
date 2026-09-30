@@ -20,7 +20,7 @@ last_checked: 2026-09-30
 `https://api.luv13.ai/v1`.
 
 **How do I get a key?**
-Sign in to the [dashboard](https://luv13.ai/dashboard) with Google or email and create one. It's shown once. See [Authentication](/docs/auth).
+Sign in to the [dashboard](https://luv13.ai/dashboard) with Google or email and create one. It's shown once. See [Authentication](/docs/a/auth).
 
 **Which models can I use?**
 Seven, listed by `GET /v1/models`: `luv13/deepseek-v4-pro`, `luv13/deepseek-v4.1-flash`, `luv13/glm-5.3`, `luv13/glm-5.3-flash`, `luv13/kimi-k3`, `luv13/kimi-k3-fast` and `luv13/qwen-3.8-27b` (as of 2026-09-30). See [the model list](https://luv13.ai/#models).
@@ -31,7 +31,7 @@ Chat completion code does, after changing the base URL, key and model id. Embedd
 ## Price and billing
 
 **How much does it cost?**
-$0.33 per 1M tokens on every model; input and output cost the same. 800k in + 200k out = 1.0M tokens = $0.33. See [Pricing](/docs/pricing).
+$0.33 per 1M tokens on every model; input and output cost the same. 800k in + 200k out = 1.0M tokens = $0.33. See [Pricing](/docs/p/pricing).
 
 **Is there a subscription?**
 No. You top up prepaid credit by card (through Stripe) from $5, and usage draws it down.
@@ -55,7 +55,7 @@ Not directly; luv13 rejects cross-origin browser calls, and your key would be ex
 Both are requested in the OpenAI format, but per-model support isn't published yet. See [Streaming on luv13](/docs/s/streaming-on-luv13) and [Tool Calling on luv13](/docs/t/tool-calling-on-luv13).
 
 **What are the rate limits?**
-See [Limits](/docs/limits). luv13 runs on single-provider capacity, so under load requests can queue or fail; retry with backoff.
+See [Limits](/docs/l/limits). luv13 runs on single-provider capacity, so under load requests can queue or fail; retry with backoff.
 
 **Is there a status page?**
 Not published yet. `GET /v1/models` works as a free check; see [Health Checks](/docs/h/health-checks).

@@ -28,7 +28,6 @@ last_checked: 2026-09-30
 | CORS error in the browser console | luv13 rejects cross-origin browser calls | Call luv13 from your server; see [Browser Requests](/docs/b/browser-requests) |
 | JSON parse error in your code | The error body was HTML (404 or 405) | Check the status code before parsing |
 | Tool feature fails, chat works | The feature uses an endpoint luv13 doesn't serve, such as embeddings | Turn that feature off, or use another service for it |
-| Reply cut off | `finish_reason` is `length` | Raise `max_tokens`; see [Finish Reasons](/docs/f/finish-reasons) |
 
 <!-- TODO: add rows for an unknown model id and an empty balance once the operator confirms their status codes and bodies. -->
 
