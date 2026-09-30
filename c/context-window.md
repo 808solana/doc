@@ -37,4 +37,4 @@ A bigger window lets you send longer documents, more code or a longer conversati
 
 ## On luv13
 
-Context windows depend on the model. Pick a model id from the live list at `https://api.luv13.ai/v1/models` and check its limit on [Listing Models](/docs/l/listing-models). <!-- TODO: confirm whether /v1/models reports a context length per model once the API is back -->
+Context windows depend on the model. The live list at `https://api.luv13.ai/v1/models` gives each model's `id` (for example `luv13/kimi-k3` or `luv13/qwen-3.8-27b`), but it doesn't report a context length. See [Listing Models](/docs/l/listing-models) for the full list. <!-- TODO: get per-model context lengths from the operator; /v1/models did not include them on 2026-09-30 -->

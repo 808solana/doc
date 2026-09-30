@@ -39,4 +39,21 @@ These numbers are an example. `prompt_tokens` is input, `completion_tokens` is o
 
 ## How pricing uses them
 
-Your cost for a request is the input tokens times the input price plus the output tokens times the output price. On luv13 the input and output prices are the same, so you can just multiply `total_tokens` by the one rate. See [Pricing](/docs/pricing) for the current rate. <!-- TODO: verify flat input = output price against live luv13.ai/pricing before this page is checked -->
+Your cost for a request is the input tokens times the input price plus the output tokens times the output price. On luv13 the input and output prices are the same, a flat $0.33 per 1 million tokens on every model, so you can just multiply `total_tokens` by that one rate. See [Pricing](/docs/pricing).
+
+For the example above, 970 total tokens cost 970 / 1,000,000 x $0.33, or about $0.00032.
+
+## Example
+
+This request caps the reply at 100 output tokens. The `usage` field in the response shows both counts.
+
+```bash
+curl https://api.luv13.ai/v1/chat/completions \
+  -H "Authorization: Bearer $LUV13_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "luv13/glm-5.3-flash",
+    "messages": [{"role": "user", "content": "Explain tokens in two sentences."}],
+    "max_tokens": 100
+  }'
+```
