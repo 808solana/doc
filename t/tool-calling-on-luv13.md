@@ -24,7 +24,7 @@ curl https://api.luv13.ai/v1/chat/completions \
   -H "Authorization: Bearer $LUV13_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "luv13/kimi-k3",
+    "model": "luv13/glm-5.3-flash",
     "messages": [{"role": "user", "content": "What is the weather in Phoenix?"}],
     "tools": [{
       "type": "function",

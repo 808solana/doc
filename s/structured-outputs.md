@@ -23,7 +23,7 @@ curl https://api.luv13.ai/v1/chat/completions \
   -H "Authorization: Bearer $LUV13_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "luv13/deepseek-v4-pro",
+    "model": "luv13/glm-5.3-flash",
     "messages": [
       {"role": "system", "content": "Reply with a JSON object with keys name and year."},
       {"role": "user", "content": "The first Moon landing."}
