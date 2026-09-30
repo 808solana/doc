@@ -26,6 +26,7 @@ A to Z list of every page.
 | GLM-5.3 Flash | `g/glm-5-3-flash.md` | draft |
 | Hallucinations | `h/hallucinations.md` | draft |
 | Health Checks | `h/health-checks.md` | draft |
+| HTTP Headers | `h/http-headers.md` | draft |
 | Input vs. Output Tokens | `i/input-vs-output-tokens.md` | draft |
 | JavaScript Example | `j/javascript-example.md` | draft |
 | JSON Mode | `j/json-mode.md` | draft |
