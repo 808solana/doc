@@ -25,7 +25,8 @@ As of 2026-09-30:
 | Privacy notice | Still being written; luv13.ai/privacy is a placeholder |
 | Data handled today | Account email, session cookies, and usage needed to run the API |
 | Terms | Still being written; the agreement you accept at signup applies |
-| Payments | Card top-ups go through Stripe |
+
+<!-- TODO: confirm with the operator which payment processor handles top-ups. -->
 
 ## What isn't published yet
 

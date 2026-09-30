@@ -13,8 +13,9 @@ last_checked: 2026-09-30
 - A missing or wrong API key returns HTTP 401 with a JSON body whose `error.type` is `invalid_auth`.
 - A wrong path returns HTTP 404 and a wrong method returns HTTP 405. Both bodies are HTML, not JSON, so don't assume every error parses as JSON.
 - HTTP 522 comes from Cloudflare and means luv13's servers couldn't be reached. Wait and retry.
-- When capacity is full, requests queue or fail. Retry with backoff; if one model is unavailable, the error names it and you can switch to another id.
-- Failed or empty calls aren't charged.
+- The [Quickstart](/docs/quickstart) says to back off and retry on a 429 `rate_limit_error`.
+
+<!-- TODO: confirm with the operator whether failed or empty calls are charged. -->
 
 ## What each code means
 
@@ -43,8 +44,8 @@ The documented way to send the key is the `Authorization: Bearer` header. Other 
 
 - Read the status code first, then try to parse JSON. A 404 or 405 body is HTML.
 - Don't retry a 401, 404 or 405. The same request will fail the same way.
-- Retry 522 and capacity errors with exponential backoff. See [Retrying Requests](/docs/r/retrying-requests).
-- If an error names a model as unavailable, switch ids. See [Model Fallback](/docs/m/model-fallback).
+- Retry 522 and 429 with exponential backoff. See [Retrying Requests](/docs/r/retrying-requests).
+- If a model is unavailable, try another id. See [Model Fallback](/docs/m/model-fallback).
 
 The OpenAI SDKs turn the 401 into an `AuthenticationError` (Python) or an error with `status` 401 (Node.js), with the JSON above as the error body.
 

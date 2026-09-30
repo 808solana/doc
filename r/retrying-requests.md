@@ -10,11 +10,11 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- luv13 runs on single-provider capacity. When it's saturated, requests queue or fail, and luv13 asks you to retry with backoff rather than hammering.
+- The [Quickstart](/docs/quickstart) says to back off and retry on a 429 `rate_limit_error`.
 - Retry timeouts, 429 and 5xx errors (including Cloudflare's 522). Don't retry 401, 404 or 405; they'll fail the same way.
 - Wait longer after each failure (for example 1, 2, 4, 8 seconds) and add a little random jitter.
-- Failed calls aren't charged, so retrying a failure doesn't cost extra.
-- If a model is unavailable, the error names it. Switching to another id can beat waiting. See [Model Fallback](/docs/m/model-fallback).
+
+<!-- TODO: confirm with the operator whether failed calls are charged, how luv13 behaves under load, and what an unavailable-model error says. -->
 
 ## What to retry
 

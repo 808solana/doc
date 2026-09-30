@@ -34,11 +34,10 @@ Chat completion code does, after changing the base URL, key and model id. Embedd
 **How much does it cost?**
 $0.33 per 1M tokens on every model; input and output cost the same. 800k in + 200k out = 1.0M tokens = $0.33. See [Pricing](/docs/p/pricing).
 
-**Is there a subscription?**
-No. You top up prepaid credit by card (through Stripe) from $5, and usage draws it down.
+**How do I pay?**
+With prepaid credit in USD. luv13.ai/pricing says: "Top up any amount from $5 in your dashboard."
 
-**Am I charged for errors?**
-No. luv13 doesn't charge failed or empty calls.
+<!-- TODO: add "Is there a subscription?" and "Am I charged for errors?" once the operator confirms the answers. -->
 
 **What happens when my balance runs out?**
 Not published yet.
@@ -56,7 +55,7 @@ Not directly; luv13 rejects cross-origin browser calls, and your key would be ex
 Both are requested in the OpenAI format, but per-model support isn't published yet. See [Streaming on luv13](/docs/s/streaming-on-luv13) and [Tool Calling on luv13](/docs/t/tool-calling-on-luv13).
 
 **What are the rate limits?**
-See [Limits](/docs/limits). luv13 runs on single-provider capacity, so under load requests can queue or fail; retry with backoff.
+See [Limits](/docs/limits). The [Quickstart](/docs/quickstart) says to back off and retry on a 429 `rate_limit_error`.
 
 **Is there a status page?**
 Not published yet. `GET /v1/models` works as a free check; see [Health Checks](/docs/h/health-checks).

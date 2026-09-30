@@ -10,7 +10,7 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- Email hi@luv13.ai. It's the address luv13.ai lists for questions and for anyone who can't use the dashboard.
+- Email hi@luv13.ai. It's the contact address on luv13.ai, and the [Quickstart](/docs/quickstart) gives it for anyone who can't use the dashboard.
 - luv13.ai also has a contact form (email and message) on the home page.
 - Balance and recent usage are self-serve in the [dashboard](https://luv13.ai/dashboard).
 - Never send your full API key in an email or form.

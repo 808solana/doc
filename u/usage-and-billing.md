@@ -1,7 +1,7 @@
 ---
 title: Usage and Billing
 definition: Usage and billing is how luv13 charges the tokens your requests use against your prepaid credit, at a flat $0.33 per 1M tokens.
-description: "How luv13 bills: one rate for input and output, prepaid USD credit from $5, no subscription, and no charge for failed calls."
+description: "How luv13 bills: one rate for input and output, and prepaid USD credit you top up in the dashboard from $5."
 category: luv13
 author: Ink
 status: draft
@@ -11,12 +11,12 @@ last_checked: 2026-09-30
 ## Key takeaways
 
 - You pay per token: a flat $0.33 per 1M tokens on every model, and input tokens cost the same as output tokens.
-- Billing is prepaid credit in USD. You top up by card in the dashboard, through Stripe, from $5, and usage draws down the balance.
-- There's no subscription.
-- Failed or empty calls aren't charged.
+- Billing is prepaid credit in USD. luv13.ai/pricing says: "Top up any amount from $5 in your dashboard." Usage draws down the balance.
 - Your balance and recent usage are in the [dashboard](https://luv13.ai/dashboard).
 
-All of the above is from luv13's original docs page and luv13.ai/pricing, checked on 2026-09-30.
+Price and top-up are from live luv13.ai/pricing and docs.luv13.ai/quickstart, checked on 2026-09-30.
+
+<!-- TODO: confirm with the operator the payment method, whether there's any subscription, and where balance and usage show in the dashboard. -->
 
 ## How a request is charged
 
@@ -32,8 +32,6 @@ For more worked numbers, see [Estimating Costs](/docs/e/estimating-costs). For i
 
 <!-- TODO: confirm with the operator which response fields billing uses, and what happens when the balance reaches zero. -->
 
-## What isn't charged
-
-luv13 doesn't charge failed or empty calls, so a request that errors costs nothing.
+<!-- TODO: confirm with the operator whether failed or empty calls are charged. -->
 
 The rate is set by the operator; [Pricing](/docs/p/pricing) is the source of truth.

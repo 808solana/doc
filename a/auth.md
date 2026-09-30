@@ -16,7 +16,7 @@ last_checked: 2026-09-30
 - A missing or invalid key on chat completions returns HTTP 401 with `"type": "invalid_auth"`.
 - Keep the key on your server. Browser calls from other sites' origins are refused by CORS.
 
-Checked on 2026-09-30 against luv13's original docs page and the live API.
+Checked on 2026-09-30 against the [Quickstart](/docs/quickstart) and the live API.
 
 ## Sending the key
 
@@ -54,4 +54,4 @@ Check that the key is set in your environment, that the header starts with `Bear
 
 ## Keep the key server-side
 
-luv13 says to keep the key in an environment variable, never in client-side code. The API also refuses cross-origin browser calls: a CORS preflight from another site's origin returns HTTP 400. Call luv13 from your own server instead. See [Browser Requests](/docs/b/browser-requests) and [API Key Best Practices](/docs/a/api-key-best-practices).
+The Quickstart says to put the key in an environment variable, never in client-side code. The API also refuses cross-origin browser calls: a CORS preflight from another site's origin returns HTTP 400. Call luv13 from your own server instead. See [Browser Requests](/docs/b/browser-requests) and [API Key Best Practices](/docs/a/api-key-best-practices).

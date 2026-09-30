@@ -44,5 +44,5 @@ When the key works, this is billed like any request, a tiny fraction of a cent a
 
 - Use Level 1 for frequent automated checks. It's free.
 - Run Level 2 rarely, because it draws on your balance.
-- Alert on repeated failures, not one. luv13 runs on single-provider capacity, and brief failures under load are expected; see [Retrying Requests](/docs/r/retrying-requests).
+- Alert on repeated failures, not one; see [Retrying Requests](/docs/r/retrying-requests).
 - Check that the response still lists the model id your app uses. If it's gone, switch ids. See [Listing Models](/docs/l/listing-models).

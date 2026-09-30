@@ -10,12 +10,11 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- luv13 runs on single-provider capacity. If a model is unavailable, luv13's error names the model, and luv13 asks you to switch to another id.
 - All seven models cost the same $0.33 per 1M tokens, so falling back never changes the price.
 - Fall back only on availability errors, not on 401 (a key problem affects every model) or 400-type request errors.
 - Pick fallbacks that accept the same inputs. If you send images, only fall back to models that take images; see [the model list](/docs/models).
 
-<!-- TODO: confirm with the operator the exact status code and body of a "model unavailable" error, so the check below can match it precisely. -->
+<!-- TODO: confirm with the operator how luv13 behaves under load, and the exact status code and body of a "model unavailable" error, so the check below can match it precisely. -->
 
 ## Python
 

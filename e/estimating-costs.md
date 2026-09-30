@@ -12,9 +12,10 @@ last_checked: 2026-09-30
 
 - Cost in USD = total tokens ÷ 1,000,000 × $0.33. There's no per-model table and no separate input and output rate.
 - 800,000 input + 200,000 output = 1,000,000 tokens = $0.33.
-- $5, the smallest top-up, covers about 15.15M tokens.
+- $5, the smallest top-up on luv13.ai/pricing, covers about 15.15M tokens.
 - If you resend the whole conversation each turn, input grows every turn, and that's usually the biggest cost.
-- Failed or empty calls aren't charged.
+
+<!-- TODO: confirm with the operator whether failed or empty calls are charged. -->
 
 The rate is set on [Pricing](/docs/p/pricing); if it changes, change the constant in your code.
 

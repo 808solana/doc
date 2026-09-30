@@ -1,7 +1,7 @@
 ---
 title: Pricing
 definition: luv13 charges one flat price, $0.33 per 1M tokens, on every model, and input tokens cost the same as output tokens.
-description: "luv13's flat rate for all seven models, prepaid USD credit from $5, what isn't charged, and a worked cost example with sample token counts."
+description: "luv13's flat rate for all seven models, prepaid USD credit from $5, and a worked cost example with sample token counts."
 category: luv13
 author: Ink
 status: draft
@@ -12,11 +12,11 @@ last_checked: 2026-09-30
 
 - Every model costs $0.33 per 1M tokens.
 - Input costs the same as output, so only the total token count matters.
-- Billing is prepaid credit in USD. You top up any amount from $5 in the dashboard.
-- Top-ups are by card, through Stripe, and usage draws down the balance. There's no subscription.
-- Failed or empty calls are not charged.
+- Billing is prepaid credit in USD. luv13.ai/pricing says: "Top up any amount from $5 in your dashboard."
 
-Checked on 2026-09-30 against live luv13.ai/pricing and luv13's original docs page.
+Checked on 2026-09-30 against live luv13.ai/pricing and docs.luv13.ai/quickstart.
+
+<!-- TODO: confirm with the operator whether failed or empty calls are charged. -->
 
 ## Price by model
 
@@ -52,10 +52,9 @@ More worked numbers are on [Estimating Costs](/docs/e/estimating-costs).
 |---|---|
 | Model | Prepaid credit in USD |
 | Top-up | Any amount from $5, in the [dashboard](https://luv13.ai/dashboard) |
-| Payment | By card, through Stripe |
 | Charges | Usage draws down the balance |
-| Not charged | Failed or empty calls |
-| Subscription | None |
+
+<!-- TODO: confirm with the operator the payment method and whether there's any subscription. -->
 
 Your balance and recent usage are in the dashboard. See [Usage and Billing](/docs/u/usage-and-billing) and [Keys and Accounts](/docs/k/keys-and-accounts).
 

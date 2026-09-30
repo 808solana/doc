@@ -22,10 +22,11 @@ last_checked: 2026-09-30
 | API key | Your secret, starting `sk-luv13-`, sent as `Authorization: Bearer <key>` |
 | Model id | The exact string in `model`, such as `luv13/glm-5.3-flash`; always starts with `luv13/` |
 | Flat rate | $0.33 per 1M tokens on every model, input the same as output |
-| Prepaid credit | USD balance topped up by card from $5; usage draws it down |
+| Prepaid credit | USD balance topped up in the dashboard from $5; usage draws it down |
 | Dashboard | luv13.ai/dashboard, where you sign in, create keys, top up and see usage |
 | `invalid_auth` | The `error.type` in a 401 response: missing or wrong key |
-| Single-provider capacity | How luv13 runs; when it's saturated, requests queue or fail |
+
+<!-- TODO: add a capacity entry once the operator confirms how luv13 behaves under load. -->
 
 ## Fields
 

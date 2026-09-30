@@ -13,10 +13,12 @@ last_checked: 2026-09-30
 - The address is `https://luv13.ai/dashboard`.
 - Sign in with Google or with email.
 - Create API keys there. The full key starts with `sk-luv13-` and is shown once, at creation.
-- Top up credit by card, through Stripe, from $5. There's no subscription.
+- Top up prepaid credit there. luv13.ai/pricing says: "Top up any amount from $5 in your dashboard."
 - Your balance and recent usage are shown there.
 
-All of this is from luv13's original docs page and luv13.ai/pricing on 2026-09-30.
+Checked on 2026-09-30: the top-up is from live luv13.ai/pricing, the key format from the [Quickstart](/docs/quickstart), and sign-in and the balance view from luv13's original docs page.
+
+<!-- TODO: confirm with the operator the sign-in options, the payment method, and whether there's any subscription. -->
 
 ## What you do there
 
@@ -24,11 +26,11 @@ All of this is from luv13's original docs page and luv13.ai/pricing on 2026-09-3
 |---|---|
 | Sign in | Google or email |
 | Create a key | Copy it right away; it's shown only once. Store it as `LUV13_API_KEY`. See [API Key Best Practices](/docs/a/api-key-best-practices). |
-| Top up | Card payment through Stripe, any amount from $5, in USD |
+| Top up | Any amount from $5, in USD (luv13.ai/pricing) |
 | Check balance | Usage draws the balance down at $0.33 per 1M tokens |
 | Check recent usage | Compare with the `usage` your code logs. See [Usage and Billing](/docs/u/usage-and-billing). |
 
-If you can't use the dashboard, luv13 says to email hi@luv13.ai.
+If you can't use the dashboard, the Quickstart says to email hi@luv13.ai.
 
 <!-- TODO: confirm with the operator whether the dashboard lets you name, list and revoke keys, and whether usage can be broken down by key or model. -->
 
