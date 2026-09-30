@@ -37,10 +37,10 @@ luv13 is prepaid. Anyone holding your key can make requests that draw down your 
 ## If a key leaks
 
 1. Create a new key in the dashboard and switch your apps to it.
-2. Check recent usage in the dashboard for requests you didn't make.
+2. Check your balance in the dashboard for a drop you can't explain.
 3. Email hi@luv13.ai about the leaked key.
 
-<!-- TODO: confirm with the operator that the dashboard supports several keys per account and revoking a key, and that a revoked key returns 401 immediately. -->
+<!-- TODO: confirm with the operator that the dashboard supports several keys per account and revoking a key, and that a revoked key returns 401 immediately. Also confirm whether the dashboard shows recent usage per request. -->
 
 ## Quick test
 
