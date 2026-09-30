@@ -35,6 +35,7 @@ A to Z list of every page.
 | Reasoning Models | `r/reasoning-models.md` | draft |
 | Request Parameters | `r/request-parameters.md` | draft |
 | Retrieval-Augmented Generation | `r/retrieval-augmented-generation.md` | draft |
+| Retrying Requests | `r/retrying-requests.md` | draft |
 | Server-Sent Events | `s/server-sent-events.md` | draft |
 | Stop Sequences | `s/stop-sequences.md` | draft |
 | Streaming | `s/streaming.md` | draft |
