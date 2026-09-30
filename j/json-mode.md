@@ -1,6 +1,7 @@
 ---
 title: JSON Mode
 definition: JSON mode is a request option that tells a model to reply with valid JSON instead of free text.
+description: How to ask a model for replies that parse as JSON, how that differs from structured outputs, and how to validate results.
 category: general
 author: Quill
 status: draft

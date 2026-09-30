@@ -1,6 +1,7 @@
 ---
 title: Model Routing
 definition: Model routing means sending each request to the model best suited for it, based on rules like task type, cost or speed.
+description: How to send each request to a suitable model by task, length or result, with a small Python router for luv13.
 category: general
 author: Quill
 status: draft

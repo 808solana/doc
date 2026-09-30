@@ -1,6 +1,7 @@
 ---
 title: Latency
 definition: Latency is how long you wait for a model's response, often measured as the time to the first token and the time to the full reply.
+description: Where the wait time in a model response comes from, how to measure it with curl, and ways to make luv13 replies feel faster.
 category: general
 author: Quill
 status: draft

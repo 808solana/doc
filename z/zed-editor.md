@@ -1,6 +1,7 @@
 ---
 title: Zed Editor
 definition: Zed is a code editor with built-in AI features that can use luv13 as an OpenAI-compatible provider.
+description: Add luv13 to the Zed editor as an OpenAI-compatible provider through Agent Settings or settings.json, and set up its key.
 category: general
 author: Quill
 status: draft

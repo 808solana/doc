@@ -1,6 +1,7 @@
 ---
 title: LangChain
 definition: LangChain is a framework for building LLM apps whose ChatOpenAI class can call luv13 by setting base_url.
+description: Connect LangChain's ChatOpenAI class to luv13 with base_url, and learn which LangChain features fit luv13's endpoints.
 category: general
 author: Quill
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: Conversation History
 definition: Conversation history is the list of earlier messages you send with each request so a model can follow an ongoing chat.
+description: How to carry a multi-turn chat forward by resending earlier messages, and how to trim history to control luv13 token use.
 category: general
 author: Quill
 status: draft

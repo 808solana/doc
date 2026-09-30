@@ -1,6 +1,7 @@
 ---
 title: XML Prompts
 definition: An XML prompt uses simple XML-style tags to separate the parts of a prompt, such as instructions, documents and examples.
+description: How XML-style tags separate instructions from data in a prompt, and how to ask a luv13 model for tagged output.
 category: general
 author: Quill
 status: draft

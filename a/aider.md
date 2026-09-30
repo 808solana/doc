@@ -1,6 +1,7 @@
 ---
 title: Aider
 definition: Aider is an open-source AI pair-programming tool for the terminal that can use luv13 as an OpenAI-compatible endpoint.
+description: Set up the Aider terminal coding tool to use luv13, with the environment variables, model prefix and config file it expects.
 category: general
 author: Quill
 status: draft

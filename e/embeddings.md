@@ -1,6 +1,7 @@
 ---
 title: Embeddings
 definition: An embedding is a list of numbers that represents the meaning of a piece of text, so that similar texts get similar numbers.
+description: How text embeddings power search and retrieval, and how to pair an outside embedding service with luv13 chat models.
 category: general
 author: Quill
 status: draft

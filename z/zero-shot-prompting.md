@@ -1,6 +1,7 @@
 ---
 title: Zero-Shot Prompting
 definition: Zero-shot prompting means asking a model to do a task with instructions only, without giving it any examples.
+description: When a plain instruction with no examples is enough, and the signs that a luv13 prompt needs examples or a stricter format.
 category: general
 author: Quill
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: Chat Templates
 definition: A chat template is the fixed text format a model uses to turn a list of chat messages into the single token sequence it was trained on.
+description: How chat messages become one token sequence, why the format differs by model, and why luv13 users can skip templates entirely.
 category: general
 author: Quill
 status: draft

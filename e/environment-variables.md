@@ -1,6 +1,7 @@
 ---
 title: Environment Variables
 definition: An environment variable is a named value set outside your code, such as an API key, that your program reads when it runs.
+description: How to set and read environment variables so your luv13 API key stays out of source code, on macOS, Linux and Windows.
 category: general
 author: Quill
 status: draft

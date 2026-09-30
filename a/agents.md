@@ -1,6 +1,7 @@
 ---
 title: Agents
 definition: An AI agent is a program that lets a model work toward a goal over several steps, choosing and using tools and checking the results as it goes.
+description: How AI agents loop through steps and tool calls, what drives their token use, and how to run coding agents on luv13 with sensible limits.
 category: general
 author: Quill
 status: draft

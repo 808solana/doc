@@ -1,6 +1,7 @@
 ---
 title: Reasoning Models
 definition: A reasoning model is a language model trained to work through a problem in intermediate steps before it gives its final answer.
+description: How reasoning models trade speed and tokens for better answers on hard problems, and tips for using them through luv13.
 category: general
 author: Quill
 status: draft

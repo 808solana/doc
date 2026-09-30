@@ -1,6 +1,7 @@
 ---
 title: What Is a Token
 definition: A token is a small chunk of text, often a word or part of a word, that a language model reads and writes one at a time.
+description: A plain introduction to tokens, how text is split into them, and why they decide both cost and length limits on luv13.
 category: general
 author: Quill
 status: draft

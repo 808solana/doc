@@ -1,6 +1,7 @@
 ---
 title: Temperature
 definition: Temperature is a sampling setting that controls how random a model's word choices are.
+description: How the temperature setting makes replies steadier or more varied, with starting values for common tasks on luv13.
 category: general
 author: Quill
 status: draft

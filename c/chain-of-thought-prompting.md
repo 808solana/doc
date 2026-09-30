@@ -1,6 +1,7 @@
 ---
 title: Chain-of-Thought Prompting
 definition: Chain-of-thought prompting means asking a model to work through a problem step by step before it gives the final answer.
+description: When asking a model to reason step by step helps, what it costs in tokens, and how to keep the final answer easy to find.
 category: general
 author: Quill
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: Input vs. Output Tokens
 definition: Input tokens are the tokens you send to a model, and output tokens are the tokens it writes back.
+description: How prompt and completion tokens are counted in the usage field, and how luv13's single rate turns them into a cost.
 category: general
 author: Quill
 status: draft

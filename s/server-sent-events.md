@@ -1,6 +1,7 @@
 ---
 title: Server-Sent Events
 definition: Server-Sent Events (SSE) is a simple web standard for a server to push a stream of text messages to a client over one open HTTP connection.
+description: The text/event-stream format behind streamed replies, and how to read a luv13 stream line by line in Python.
 category: general
 author: Quill
 status: draft

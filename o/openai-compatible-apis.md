@@ -1,6 +1,7 @@
 ---
 title: OpenAI-Compatible APIs
 definition: An OpenAI-compatible API accepts the same requests and returns the same response shapes as OpenAI's API, so existing tools and code work with it after changing the base URL and key.
+description: What makes an API OpenAI-compatible, which two settings to change to switch to luv13, and where providers can still differ.
 category: general
 author: Quill
 status: draft

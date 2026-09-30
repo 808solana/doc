@@ -1,6 +1,7 @@
 ---
 title: Few-Shot Prompting
 definition: Few-shot prompting means showing a model a few worked examples in the prompt so it copies the pattern for a new input.
+description: How to add a few worked example messages to a prompt so a luv13 model copies your format, labels and style.
 category: general
 author: Quill
 status: draft

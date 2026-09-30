@@ -1,6 +1,7 @@
 ---
 title: Throughput
 definition: Throughput is how much work a model or API gets done over time, usually measured in output tokens per second.
+description: How output speed in tokens per second differs from latency, how to measure it, and ways to raise overall app throughput.
 category: general
 author: Quill
 status: draft

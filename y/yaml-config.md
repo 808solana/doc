@@ -1,6 +1,7 @@
 ---
 title: YAML Config
 definition: A YAML config is a settings file written in YAML, a plain-text format that many AI tools use to store provider, model and key settings.
+description: YAML basics for AI tool settings, with luv13 examples for Continue's config.yaml and Aider's .aider.conf.yml.
 category: general
 author: Quill
 status: draft

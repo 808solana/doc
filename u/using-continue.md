@@ -1,6 +1,7 @@
 ---
 title: Using Continue
 definition: Continue is an open-source AI coding assistant for VS Code and JetBrains that can use luv13 through its openai provider with a custom apiBase.
+description: Add a luv13 model to Continue's config.yaml for chat and edits, and why autocomplete should use a different model.
 category: general
 author: Quill
 status: draft

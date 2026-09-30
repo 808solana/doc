@@ -1,6 +1,7 @@
 ---
 title: Node.js Fetch
 definition: Node.js has a built-in fetch function that can call luv13's OpenAI-compatible API with no extra packages.
+description: Call luv13 from Node.js with the built-in fetch, including error checks, a request timeout and a runnable script.
 category: general
 author: Quill
 status: draft

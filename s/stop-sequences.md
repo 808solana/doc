@@ -1,6 +1,7 @@
 ---
 title: Stop Sequences
 definition: A stop sequence is a string that tells the model to stop writing as soon as it would produce that text.
+description: How the stop field ends a reply at a chosen string, when it saves tokens, and what to watch for when picking stop strings.
 category: general
 author: Quill
 status: draft

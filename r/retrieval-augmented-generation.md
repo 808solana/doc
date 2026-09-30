@@ -1,6 +1,7 @@
 ---
 title: Retrieval-Augmented Generation
 definition: Retrieval-augmented generation (RAG) means looking up relevant text first and adding it to the prompt so the model answers from that source.
+description: How to ground model answers in your own documents by retrieving passages first, with a luv13 generate-step example.
 category: general
 author: Quill
 status: draft

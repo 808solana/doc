@@ -1,6 +1,7 @@
 ---
 title: Streaming
 definition: Streaming means the API sends a model's reply in small pieces as it is written, instead of all at once at the end.
+description: Why streamed replies feel faster, how chunks and deltas fit together, and how to request a streamed reply from luv13.
 category: general
 author: Quill
 status: draft

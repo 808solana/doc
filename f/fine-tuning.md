@@ -1,6 +1,7 @@
 ---
 title: Fine-Tuning
 definition: Fine-tuning is further training of an existing model on your own examples so it learns a specific task, style or format.
+description: What fine-tuning involves, when prompts or retrieval are a better choice, and how to steer luv13 models without it.
 category: general
 author: Quill
 status: draft

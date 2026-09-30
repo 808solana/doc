@@ -1,6 +1,7 @@
 ---
 title: Base URL
 definition: A base URL is the fixed start of an API's address that every endpoint path is added to.
+description: What the base URL is, where to change it in OpenAI-compatible tools, and the mistakes to avoid when pointing them at luv13.
 category: general
 author: Quill
 status: draft

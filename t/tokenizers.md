@@ -1,6 +1,7 @@
 ---
 title: Tokenizers
 definition: A tokenizer is the part of a language model system that splits text into tokens and turns them into numbers the model can read.
+description: How text is split into tokens, why counts differ between models, and how to read the real count from a luv13 response.
 category: general
 author: Quill
 status: draft

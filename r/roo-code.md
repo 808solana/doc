@@ -1,6 +1,7 @@
 ---
 title: Roo Code
 definition: Roo Code is an AI coding agent for VS Code that can use luv13 through its OpenAI Compatible provider.
+description: Set up the Roo Code VS Code agent with luv13 as an OpenAI Compatible provider, and check that tool calling works first.
 category: general
 author: Quill
 status: draft

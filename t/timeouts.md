@@ -1,6 +1,7 @@
 ---
 title: Timeouts
 definition: A timeout is the longest your code will wait for a request to finish before it gives up.
+description: How to choose connect and read timeouts for model calls, the defaults in common clients, and a curl example for luv13.
 category: general
 author: Quill
 status: draft

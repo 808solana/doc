@@ -1,6 +1,7 @@
 ---
 title: Open-Weight Models
 definition: An open-weight model is a language model whose trained weights are published, so anyone allowed by its license can download and run it.
+description: What published model weights allow, how open-weight differs from open source, and how that relates to the models on luv13.
 category: general
 author: Quill
 status: draft

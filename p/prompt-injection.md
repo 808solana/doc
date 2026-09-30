@@ -1,6 +1,7 @@
 ---
 title: Prompt Injection
 definition: Prompt injection is when text from an untrusted source, such as a web page, email or user message, contains instructions that trick a model into ignoring its real ones.
+description: How hidden instructions in untrusted text can hijack a model, and practical ways to lower the risk in apps built on luv13.
 category: general
 author: Quill
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: Quantization
 definition: Quantization shrinks a model by storing its weights with fewer bits, which saves memory and speeds it up at some cost to accuracy.
+description: How storing model weights with fewer bits saves memory, what it can cost in quality, and why it matters when using hosted models.
 category: general
 author: Quill
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: Using the OpenAI SDKs
 definition: The official OpenAI SDKs for Python and JavaScript can call luv13 by setting their base URL to https://api.luv13.ai/v1 and using a luv13 API key.
+description: Use the official OpenAI Python and JavaScript libraries with luv13 by changing the base URL and key, with code for both.
 category: general
 author: Quill
 status: draft

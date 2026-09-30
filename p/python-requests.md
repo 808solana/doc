@@ -1,6 +1,7 @@
 ---
 title: Python Requests
 definition: The Python requests library can call luv13's OpenAI-compatible API directly with plain HTTP, without an SDK.
+description: Call luv13 from Python with the requests library and no SDK, including timeouts, status checks and common error codes.
 category: general
 author: Quill
 status: draft

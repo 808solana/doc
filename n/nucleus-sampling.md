@@ -1,6 +1,7 @@
 ---
 title: Nucleus Sampling
 definition: Nucleus sampling, set with top_p, makes a model pick each next token only from the smallest group of likely tokens whose probabilities add up to a set share.
+description: How the top_p setting trims unlikely tokens, how it differs from temperature, and how to try it in a luv13 request.
 category: general
 author: Quill
 status: draft

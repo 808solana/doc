@@ -1,6 +1,7 @@
 ---
 title: System Prompts
 definition: A system prompt is an instruction at the start of a conversation that sets how the model should behave for every reply that follows.
+description: What belongs in a system message, how it shapes every reply, and tips for writing one that luv13 models follow well.
 category: general
 author: Quill
 status: draft

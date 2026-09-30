@@ -1,6 +1,7 @@
 ---
 title: Hallucinations
 definition: A hallucination is when a model states something false or made up as if it were true.
+description: Why models state false things with confidence, and practical ways to reduce made-up answers when building on luv13.
 category: general
 author: Quill
 status: draft

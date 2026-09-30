@@ -1,6 +1,7 @@
 ---
 title: Context Window
 definition: A context window is the most tokens a model can handle in one request, counting both what you send and what it writes back.
+description: What counts toward a model's context window, why it affects cost and length, and how to keep long luv13 requests inside it.
 category: general
 author: Quill
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: Rate Limiting
 definition: Rate limiting is when an API caps how many requests or tokens you can use in a period of time, and rejects extra ones until the window resets.
+description: Why APIs cap request rates, what a 429 response means, and how to pace and retry your luv13 requests.
 category: general
 author: Quill
 status: draft

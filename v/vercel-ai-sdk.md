@@ -1,6 +1,7 @@
 ---
 title: Vercel AI SDK
 definition: The Vercel AI SDK is a TypeScript library for building AI features that can call luv13 through its OpenAI Compatible provider package.
+description: Connect the Vercel AI SDK to luv13 with createOpenAICompatible, with a generateText example and notes on useful options.
 category: general
 author: Quill
 status: draft

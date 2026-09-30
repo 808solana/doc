@@ -1,6 +1,7 @@
 ---
 title: OpenCode
 definition: OpenCode is an open-source AI coding agent for the terminal that can use luv13 as a custom OpenAI-compatible provider.
+description: Add luv13 as a custom provider in the OpenCode terminal agent, with a sample opencode.json and tips for fixing setup problems.
 category: general
 author: Quill
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: n8n
 definition: n8n is a workflow automation tool whose OpenAI credential has a Base URL field, so its OpenAI nodes can call luv13.
+description: Set up an OpenAI credential in n8n with luv13's base URL, and see which n8n OpenAI nodes will and won't work with it.
 category: general
 author: Quill
 status: draft

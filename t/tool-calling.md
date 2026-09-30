@@ -1,6 +1,7 @@
 ---
 title: Tool Calling
 definition: Tool calling lets a model ask your code to run a function you described, then use the result in its reply.
+description: How the tool calling loop works step by step, with tips for safe tools and a sample request to luv13.
 category: general
 author: Quill
 status: draft

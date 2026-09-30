@@ -1,6 +1,7 @@
 ---
 title: Prompt Engineering
 definition: Prompt engineering is the practice of writing and testing the instructions you give a model so it reliably produces the output you want.
+description: The basics of writing clear prompts, the main techniques worth knowing, and how to test prompt changes on luv13 models.
 category: general
 author: Quill
 status: draft

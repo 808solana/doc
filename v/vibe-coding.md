@@ -1,6 +1,7 @@
 ---
 title: Vibe Coding
 definition: Vibe coding is building software mostly by describing what you want to an AI coding tool and accepting its changes, with little reading of the code yourself.
+description: What building software by describing it to an AI tool looks like, where it's risky, and which coding tools work with luv13.
 category: general
 author: Quill
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: Using Cline
 definition: Cline is an AI coding agent for VS Code that can use luv13 through its OpenAI Compatible provider setting.
+description: Point the Cline VS Code agent at luv13 with the OpenAI Compatible provider, plus model settings and troubleshooting tips.
 category: general
 author: Quill
 status: draft
