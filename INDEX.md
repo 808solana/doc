@@ -42,6 +42,7 @@ A to Z list of every page.
 | Latency | `l/latency.md` | draft |
 | Listing Models | `l/listing-models.md` | draft |
 | Migrating from OpenAI | `m/migrating-from-openai.md` | draft |
+| Model Fallback | `m/model-fallback.md` | draft |
 | Model IDs | `m/model-ids.md` | draft |
 | Model Routing | `m/model-routing.md` | draft |
 | Node.js Fetch | `n/nodejs-fetch.md` | draft |
