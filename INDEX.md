@@ -8,6 +8,7 @@ A to Z list of every page.
 | Chat Completions | `c/chat-completions.md` | draft |
 | Context Window | `c/context-window.md` | draft |
 | Input vs. Output Tokens | `i/input-vs-output-tokens.md` | draft |
+| Kimi K3 | `k/kimi-k3.md` | draft |
 | Listing Models | `l/listing-models.md` | draft |
 | OpenAI-Compatible APIs | `o/openai-compatible-apis.md` | draft |
 | What Is a Token | `w/what-is-a-token.md` | draft |
