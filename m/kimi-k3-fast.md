@@ -90,5 +90,5 @@ See [Pricing](/docs/p/pricing).
 
 ## Sources
 
-- https://platform.kimi.ai/docs/models (Moonshot AI's model list; checked 2026-09-30, no Kimi K3 Fast entry)
-- https://api.luv13.ai/v1/models (luv13 model id)
+- [Kimi API model list (Moonshot AI)](https://platform.kimi.ai/docs/models) (Moonshot AI's model list; checked 2026-09-30, no Kimi K3 Fast entry)
+- [luv13 model list (live GET /v1/models)](https://api.luv13.ai/v1/models) (luv13 model id)

@@ -33,19 +33,6 @@ GLM-5.3 is Z.ai's flagship model in the GLM-5 series. Z.ai built it on the same 
 
 Z.ai positions it for complex software engineering and long-horizon agent tasks. It reports a 50% gain over GLM-5.2 on its in-house Z.ai Code Bench, and strong results on security work such as vulnerability discovery. Z.ai's documentation lists a maximum output of 128K tokens on its own platform.
 
-## Key facts
-
-| Fact | Value |
-|---|---|
-| Name | GLM 5.3 (luv13's name) |
-| luv13 model id | `luv13/glm-5.3` |
-| Maker | Z.ai |
-| Open weights | Yes |
-| Input (maker) | text |
-| Output (maker) | text |
-| Context window (maker's published figure) | 1M tokens |
-| Released (maker) | 2026-08-18 |
-
 The id comes from live `GET https://api.luv13.ai/v1/models`; every other fact comes from the maker's sources below. The context window is the maker's published figure, not a luv13 limit; luv13 hasn't published its own per-model limits.
 
 Z.ai writes the name as GLM-5.3; luv13 lists it as GLM 5.3.
@@ -119,7 +106,7 @@ See [Pricing](/docs/p/pricing).
 
 ## Sources
 
-- https://huggingface.co/zai-org/GLM-5.3
-- https://docs.z.ai/guides/llm/glm-5.3
-- https://docs.z.ai/release-notes/new-released
-- https://api.luv13.ai/v1/models (luv13 model id)
+- [GLM-5.3 model card (Hugging Face)](https://huggingface.co/zai-org/GLM-5.3)
+- [GLM-5.3 guide (Z.ai docs)](https://docs.z.ai/guides/llm/glm-5.3)
+- [Z.ai release notes](https://docs.z.ai/release-notes/new-released)
+- [luv13 model list (live GET /v1/models)](https://api.luv13.ai/v1/models) (luv13 model id)

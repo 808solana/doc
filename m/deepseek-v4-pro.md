@@ -33,19 +33,6 @@ DeepSeek-V4-Pro is the larger model in DeepSeek's V4 series: a Mixture-of-Expert
 
 DeepSeek designed the V4 series around efficient million-token contexts, using a hybrid attention scheme to cut the cost of long inputs. DeepSeek's API docs list vision as not supported for V4-Pro.
 
-## Key facts
-
-| Fact | Value |
-|---|---|
-| Name | DeepSeek V4-Pro |
-| luv13 model id | `luv13/deepseek-v4-pro` |
-| Maker | DeepSeek |
-| Open weights | Yes |
-| Input (maker) | text |
-| Output (maker) | text |
-| Context window (maker's published figure) | 1M tokens |
-| Released (maker) | 2026-04-24 |
-
 The id comes from live `GET https://api.luv13.ai/v1/models`; every other fact comes from the maker's sources below. The context window is the maker's published figure, not a luv13 limit; luv13 hasn't published its own per-model limits.
 
 Price on luv13: see [Pricing](/docs/p/pricing).
@@ -81,7 +68,7 @@ See [Pricing](/docs/p/pricing).
 
 ## Sources
 
-- https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
-- https://api-docs.deepseek.com/updates
-- https://api-docs.deepseek.com/quick_start/pricing
-- https://api.luv13.ai/v1/models (luv13 model id)
+- [DeepSeek-V4-Pro model card (Hugging Face)](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)
+- [DeepSeek API change log](https://api-docs.deepseek.com/updates)
+- [DeepSeek models and pricing (DeepSeek API docs)](https://api-docs.deepseek.com/quick_start/pricing)
+- [luv13 model list (live GET /v1/models)](https://api.luv13.ai/v1/models) (luv13 model id)

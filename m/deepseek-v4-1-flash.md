@@ -34,19 +34,6 @@ DeepSeek-V4.1-Flash is a multimodal Mixture-of-Experts model with 552B backbone 
 
 DeepSeek says it scores ahead of its own V4-Pro on the benchmarks in its release notes, and it has replaced DeepSeek's earlier V4-Flash models on DeepSeek's own API.
 
-## Key facts
-
-| Fact | Value |
-|---|---|
-| Name | DeepSeek V4.1 Flash |
-| luv13 model id | `luv13/deepseek-v4.1-flash` |
-| Maker | DeepSeek |
-| Open weights | Yes |
-| Input (maker) | text, image |
-| Output (maker) | text |
-| Context window (maker's published figure) | 1M tokens |
-| Released (maker) | 2026-09-10 |
-
 The id comes from live `GET https://api.luv13.ai/v1/models`; every other fact comes from the maker's sources below. The context window is the maker's published figure, not a luv13 limit; luv13 hasn't published its own per-model limits.
 
 Price on luv13: see [Pricing](/docs/p/pricing).
@@ -118,7 +105,7 @@ See [Pricing](/docs/p/pricing).
 
 ## Sources
 
-- https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash
-- https://api-docs.deepseek.com/news/news260910
-- https://api-docs.deepseek.com/updates
-- https://api.luv13.ai/v1/models (luv13 model id)
+- [DeepSeek-V4.1-Flash model card (Hugging Face)](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash)
+- [DeepSeek-V4.1-Flash release news (DeepSeek API docs)](https://api-docs.deepseek.com/news/news260910)
+- [DeepSeek API change log](https://api-docs.deepseek.com/updates)
+- [luv13 model list (live GET /v1/models)](https://api.luv13.ai/v1/models) (luv13 model id)

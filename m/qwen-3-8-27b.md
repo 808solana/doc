@@ -34,19 +34,6 @@ Qwen3.8-27B is the compact member of Alibaba's Qwen3.8 open-model series. It's a
 
 Qwen aims it at coding, professional work, research and long multi-step agent tasks, and describes it as easy to deploy. Its vision support covers documents, diagrams and long videos.
 
-## Key facts
-
-| Fact | Value |
-|---|---|
-| Name | Qwen 3.8 27B (luv13's name) |
-| luv13 model id | `luv13/qwen-3.8-27b` |
-| Maker | Qwen (Alibaba) |
-| Open weights | Yes |
-| Input (maker) | text, image, video |
-| Output (maker) | text |
-| Context window (maker's published figure) | 262,144 tokens native, extensible to 1,000,000 |
-| Released (maker) | 2026-08-14 |
-
 The id comes from live `GET https://api.luv13.ai/v1/models`; every other fact comes from the maker's sources below. The context window is the maker's published figure, not a luv13 limit; luv13 hasn't published its own per-model limits.
 
 Qwen writes the name as Qwen3.8-27B; luv13 lists it as Qwen 3.8 27B.
@@ -119,6 +106,6 @@ See [Pricing](/docs/p/pricing).
 
 ## Sources
 
-- https://huggingface.co/Qwen/Qwen3.8-27B
-- https://github.com/QwenLM/Qwen3.8
-- https://api.luv13.ai/v1/models (luv13 model id)
+- [Qwen3.8-27B model card (Hugging Face)](https://huggingface.co/Qwen/Qwen3.8-27B)
+- [Qwen3.8 repository (QwenLM on GitHub)](https://github.com/QwenLM/Qwen3.8)
+- [luv13 model list (live GET /v1/models)](https://api.luv13.ai/v1/models) (luv13 model id)

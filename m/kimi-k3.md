@@ -34,18 +34,6 @@ Kimi K3 is from Moonshot AI, which calls it its most capable model to date. It i
 
 Moonshot aims it at long, mostly unattended work: extended coding sessions across large repositories, driving terminal tools, and agent-style knowledge work such as research write-ups. Because vision is built in, it can also work from images, rendered output and video.
 
-## Key facts
-
-| Fact | Value |
-|---|---|
-| Name | Kimi K3 (luv13's name) |
-| luv13 model id | `luv13/kimi-k3` |
-| Maker | Moonshot AI |
-| Open weights | Yes |
-| Input (maker) | text, image, video |
-| Output (maker) | text |
-| Context window (maker's published figure) | 1,048,576 tokens |
-
 The id comes from live `GET https://api.luv13.ai/v1/models`; every other fact comes from the maker's sources below. The context window is the maker's published figure, not a luv13 limit; luv13 hasn't published its own per-model limits.
 
 Moonshot's model card describes text, image and video understanding in its introduction; the card's summary table lists text and image.
@@ -119,7 +107,7 @@ See [Pricing](/docs/p/pricing).
 
 ## Sources
 
-- https://huggingface.co/moonshotai/Kimi-K3
-- https://www.kimi.com/blog/kimi-k3
-- https://platform.kimi.ai/docs/models
-- https://api.luv13.ai/v1/models (luv13 model id)
+- [Kimi K3 model card (Hugging Face)](https://huggingface.co/moonshotai/Kimi-K3)
+- [Kimi K3 tech blog (Moonshot AI)](https://www.kimi.com/blog/kimi-k3)
+- [Kimi API model list (Moonshot AI)](https://platform.kimi.ai/docs/models)
+- [luv13 model list (live GET /v1/models)](https://api.luv13.ai/v1/models) (luv13 model id)

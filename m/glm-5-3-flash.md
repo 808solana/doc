@@ -36,19 +36,6 @@ GLM-5.3-Flash is the first natively multimodal model in Z.ai's GLM-5 series. Unl
 
 Z.ai aims it at coding with visual feedback, where the model looks at interfaces and rendered output and keeps improving its work, and at office and document tasks such as research and building finished files. Z.ai's documentation lists a maximum output of 128K tokens on its own platform.
 
-## Key facts
-
-| Fact | Value |
-|---|---|
-| Name | GLM-5.3 Flash (luv13's name) |
-| luv13 model id | `luv13/glm-5.3-flash` |
-| Maker | Z.ai |
-| Open weights | Yes |
-| Input (maker) | text, image, video, file |
-| Output (maker) | text |
-| Context window (maker's published figure) | 1M tokens |
-| Released (maker) | 2026-08-26 |
-
 The id comes from live `GET https://api.luv13.ai/v1/models`; every other fact comes from the maker's sources below. The context window is the maker's published figure, not a luv13 limit; luv13 hasn't published its own per-model limits.
 
 Z.ai writes the name as GLM-5.3-Flash; luv13 lists it as GLM-5.3 Flash.
@@ -122,7 +109,7 @@ See [Pricing](/docs/p/pricing).
 
 ## Sources
 
-- https://huggingface.co/zai-org/GLM-5.3-Flash
-- https://docs.z.ai/guides/llm/glm-5.3-flash
-- https://docs.z.ai/release-notes/new-released
-- https://api.luv13.ai/v1/models (luv13 model id)
+- [GLM-5.3-Flash model card (Hugging Face)](https://huggingface.co/zai-org/GLM-5.3-Flash)
+- [GLM-5.3-Flash guide (Z.ai docs)](https://docs.z.ai/guides/llm/glm-5.3-flash)
+- [Z.ai release notes](https://docs.z.ai/release-notes/new-released)
+- [luv13 model list (live GET /v1/models)](https://api.luv13.ai/v1/models) (luv13 model id)
