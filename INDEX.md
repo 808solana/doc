@@ -19,8 +19,6 @@ A to Z list of every page.
 | curl Examples | `c/curl-examples.md` | draft |
 | Dashboard | `d/dashboard.md` | draft |
 | Data and Privacy | `d/data-and-privacy.md` | draft |
-| DeepSeek V4-Pro | `d/deepseek-v4-pro.md` | draft |
-| DeepSeek V4.1 Flash | `d/deepseek-v4-1-flash.md` | draft |
 | Embeddings | `e/embeddings.md` | draft |
 | Endpoints | `e/endpoints.md` | draft |
 | Environment Variables | `e/environment-variables.md` | draft |
@@ -30,8 +28,6 @@ A to Z list of every page.
 | Few-Shot Prompting | `f/few-shot-prompting.md` | draft |
 | Fine-Tuning | `f/fine-tuning.md` | draft |
 | Finish Reasons | `f/finish-reasons.md` | draft |
-| GLM 5.3 | `g/glm-5-3.md` | draft |
-| GLM-5.3 Flash | `g/glm-5-3-flash.md` | draft |
 | Glossary | `g/glossary.md` | draft |
 | Hallucinations | `h/hallucinations.md` | draft |
 | Health Checks | `h/health-checks.md` | draft |
@@ -40,8 +36,6 @@ A to Z list of every page.
 | Input vs. Output Tokens | `i/input-vs-output-tokens.md` | draft |
 | JavaScript Example | `j/javascript-example.md` | draft |
 | JSON Mode | `j/json-mode.md` | draft |
-| Kimi K3 | `k/kimi-k3.md` | draft |
-| Kimi K3 Fast | `k/kimi-k3-fast.md` | draft |
 | LangChain | `l/langchain.md` | draft |
 | Latency | `l/latency.md` | draft |
 | Listing Models | `l/listing-models.md` | draft |
@@ -60,7 +54,6 @@ A to Z list of every page.
 | Python Example | `p/python-example.md` | draft |
 | Python Requests | `p/python-requests.md` | draft |
 | Quantization | `q/quantization.md` | draft |
-| Qwen 3.8 27B | `q/qwen-3-8-27b.md` | draft |
 | Rate Limiting | `r/rate-limiting.md` | draft |
 | Reasoning Models | `r/reasoning-models.md` | draft |
 | Request Parameters | `r/request-parameters.md` | draft |
