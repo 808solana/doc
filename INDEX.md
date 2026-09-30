@@ -23,6 +23,7 @@ A to Z list of every page.
 | Kimi K3 | `k/kimi-k3.md` | draft |
 | Kimi K3 Fast | `k/kimi-k3-fast.md` | draft |
 | Listing Models | `l/listing-models.md` | draft |
+| Migrating from OpenAI | `m/migrating-from-openai.md` | draft |
 | Model IDs | `m/model-ids.md` | draft |
 | Node.js Fetch | `n/nodejs-fetch.md` | draft |
 | Nucleus Sampling | `n/nucleus-sampling.md` | draft |
