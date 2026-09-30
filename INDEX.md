@@ -7,6 +7,7 @@ A to Z list of every page.
 | Base URL | `b/base-url.md` | draft |
 | Chat Completions | `c/chat-completions.md` | draft |
 | Context Window | `c/context-window.md` | draft |
+| DeepSeek V4-Pro | `d/deepseek-v4-pro.md` | draft |
 | DeepSeek V4.1 Flash | `d/deepseek-v4-1-flash.md` | draft |
 | GLM 5.3 | `g/glm-5-3.md` | draft |
 | GLM-5.3 Flash | `g/glm-5-3-flash.md` | draft |
