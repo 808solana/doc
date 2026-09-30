@@ -9,6 +9,7 @@ A to Z list of every page.
 | Context Window | `c/context-window.md` | draft |
 | DeepSeek V4-Pro | `d/deepseek-v4-pro.md` | draft |
 | DeepSeek V4.1 Flash | `d/deepseek-v4-1-flash.md` | draft |
+| Errors and Status Codes | `e/errors-and-status-codes.md` | draft |
 | GLM 5.3 | `g/glm-5-3.md` | draft |
 | GLM-5.3 Flash | `g/glm-5-3-flash.md` | draft |
 | Input vs. Output Tokens | `i/input-vs-output-tokens.md` | draft |
