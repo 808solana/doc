@@ -12,7 +12,7 @@ last_checked: 2026-09-30
 
 - luv13 rejects cross-origin browser calls from other sites. On 2026-09-30, the CORS preflight for `POST /v1/chat/completions` returned HTTP 400 "Disallowed CORS origin" for `https://example.com` and `http://localhost:3000`.
 - So `fetch()` from your own web page to `https://api.luv13.ai/v1/chat/completions` fails in the browser, even with a valid key.
-- That's also the safe design: a key in client-side code can be read by anyone who loads the page. luv13.ai/docs says never to put it there.
+- That's also the safe design: a key in client-side code can be read by anyone who loads the page. luv13 says never to put it there.
 - Call luv13 from your server, and have your web page call your server.
 
 ## Why the browser call fails

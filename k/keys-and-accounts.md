@@ -16,11 +16,11 @@ last_checked: 2026-09-30
 - Send the key in the `Authorization: Bearer` header on every chat completion request.
 - If you can't use the dashboard, email hi@luv13.ai.
 
-All of the above is from luv13.ai/docs and luv13.ai/pricing, checked on 2026-09-30.
+All of the above is from luv13's original docs page and luv13.ai/pricing, checked on 2026-09-30.
 
 ## Where the key goes
 
-Keep it in an environment variable, as luv13.ai/docs does:
+Keep it in an environment variable, as the [Quickstart](/docs/quickstart) does:
 
 ```bash
 export LUV13_API_KEY=sk-luv13-...

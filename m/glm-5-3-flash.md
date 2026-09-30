@@ -25,7 +25,7 @@ sources:
 
 ## Key takeaways
 
-- The luv13 model id is `luv13/glm-5.3-flash`. It's the model luv13.ai/docs uses in its first example.
+- The luv13 model id is `luv13/glm-5.3-flash`. It's the model the [Quickstart](/docs/quickstart) uses in its first example.
 - Made by Z.ai. The weights are open, under the MIT license.
 - Z.ai lists video, image, text and file input, with text output.
 - Z.ai publishes a 1M-token context window. That's the maker's figure, not a luv13 limit.

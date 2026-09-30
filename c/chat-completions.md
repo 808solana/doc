@@ -1,7 +1,7 @@
 ---
 title: Chat Completions
 definition: Chat completions is the luv13 endpoint that takes a list of messages and returns the model's next reply.
-description: The request fields, a curl from luv13.ai/docs, and the 401 body you get without a key for POST /v1/chat/completions.
+description: The request fields, a curl from the Quickstart, and the 401 body you get without a key for POST /v1/chat/completions.
 category: luv13
 author: Ink
 status: draft
@@ -12,7 +12,7 @@ last_checked: 2026-09-30
 
 - The endpoint is `POST https://api.luv13.ai/v1/chat/completions`.
 - It uses the OpenAI chat completions format, so OpenAI SDKs and tools can call it once their base URL points at luv13.
-- The request luv13.ai/docs shows has two fields: `model` (an id from `GET /v1/models`, such as `luv13/glm-5.3-flash`) and `messages`.
+- The request the [Quickstart](/docs/quickstart) shows has two fields: `model` (an id from `GET /v1/models`, such as `luv13/glm-5.3-flash`) and `messages`.
 - It needs an API key. Without a valid one it returns HTTP 401 with `"type": "invalid_auth"`.
 - Every model costs $0.33 per 1M tokens, input the same as output.
 
@@ -29,7 +29,7 @@ Optional fields are covered on [Request Parameters](/docs/r/request-parameters).
 
 ## Example
 
-This is the first request shown on luv13.ai/docs:
+This is the first request shown in the Quickstart:
 
 ```bash
 curl https://api.luv13.ai/v1/chat/completions \

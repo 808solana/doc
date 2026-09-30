@@ -16,7 +16,7 @@ last_checked: 2026-09-30
 - Top up credit by card, through Stripe, from $5. There's no subscription.
 - Your balance and recent usage are shown there.
 
-All of this is from luv13.ai/docs and luv13.ai/pricing on 2026-09-30.
+All of this is from luv13's original docs page and luv13.ai/pricing on 2026-09-30.
 
 ## What you do there
 
@@ -28,7 +28,7 @@ All of this is from luv13.ai/docs and luv13.ai/pricing on 2026-09-30.
 | Check balance | Usage draws the balance down at $0.33 per 1M tokens |
 | Check recent usage | Compare with the `usage` your code logs. See [Usage and Billing](/docs/u/usage-and-billing). |
 
-If you can't use the dashboard, luv13.ai/docs says to email hi@luv13.ai.
+If you can't use the dashboard, luv13 says to email hi@luv13.ai.
 
 <!-- TODO: confirm with the operator whether the dashboard lets you name, list and revoke keys, and whether usage can be broken down by key or model. -->
 

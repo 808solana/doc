@@ -10,7 +10,7 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- luv13 runs on single-provider capacity. When it's saturated, requests queue or fail, and luv13.ai/docs asks you to retry with backoff rather than hammering.
+- luv13 runs on single-provider capacity. When it's saturated, requests queue or fail, and luv13 asks you to retry with backoff rather than hammering.
 - Retry timeouts, 429 and 5xx errors (including Cloudflare's 522). Don't retry 401, 404 or 405; they'll fail the same way.
 - Wait longer after each failure (for example 1, 2, 4, 8 seconds) and add a little random jitter.
 - Failed calls aren't charged, so retrying a failure doesn't cost extra.

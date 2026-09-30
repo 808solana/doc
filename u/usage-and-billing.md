@@ -16,7 +16,7 @@ last_checked: 2026-09-30
 - Failed or empty calls aren't charged.
 - Your balance and recent usage are in the [dashboard](https://luv13.ai/dashboard).
 
-All of the above is from luv13.ai/docs and luv13.ai/pricing, checked on 2026-09-30.
+All of the above is from luv13's original docs page and luv13.ai/pricing, checked on 2026-09-30.
 
 ## How a request is charged
 
@@ -34,6 +34,6 @@ For more worked numbers, see [Estimating Costs](/docs/e/estimating-costs). For i
 
 ## What isn't charged
 
-luv13.ai/docs says failed or empty calls aren't charged, so a request that errors costs nothing.
+luv13 doesn't charge failed or empty calls, so a request that errors costs nothing.
 
 The rate is set by the operator; [Pricing](/docs/p/pricing) is the source of truth.

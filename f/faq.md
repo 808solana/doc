@@ -38,7 +38,7 @@ $0.33 per 1M tokens on every model; input and output cost the same. 800k in + 20
 No. You top up prepaid credit by card (through Stripe) from $5, and usage draws it down.
 
 **Am I charged for errors?**
-No. luv13.ai/docs says failed or empty calls aren't charged.
+No. luv13 doesn't charge failed or empty calls.
 
 **What happens when my balance runs out?**
 Not published yet.

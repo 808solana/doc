@@ -16,7 +16,7 @@ last_checked: 2026-09-30
 - Top-ups are by card, through Stripe, and usage draws down the balance. There's no subscription.
 - Failed or empty calls are not charged.
 
-Checked on 2026-09-30 against live luv13.ai/pricing and luv13.ai/docs.
+Checked on 2026-09-30 against live luv13.ai/pricing and luv13's original docs page.
 
 ## Price by model
 
@@ -40,7 +40,7 @@ The same rate applies to input and output tokens on every model.
 cost in USD = (input tokens + output tokens) / 1,000,000 × $0.33
 ```
 
-**Example 1** (the example on luv13.ai/docs): 800,000 input tokens + 200,000 output tokens = 1,000,000 tokens. 1,000,000 / 1,000,000 × $0.33 = **$0.33**.
+**Example 1** (the example in the [Quickstart](/docs/quickstart)): 800,000 input tokens + 200,000 output tokens = 1,000,000 tokens. 1,000,000 / 1,000,000 × $0.33 = **$0.33**.
 
 **Example 2** (sample numbers for one request): 12,000 input tokens + 3,000 output tokens = 15,000 tokens. 15,000 / 1,000,000 × $0.33 = **$0.00495**.
 

@@ -11,7 +11,7 @@ last_checked: 2026-09-30
 ## Key takeaways
 
 - Export your key once with `export LUV13_API_KEY=sk-luv13-...`, then every command below runs as written.
-- All chat examples use `luv13/glm-5.3-flash`, the model luv13.ai/docs uses.
+- All chat examples use `luv13/glm-5.3-flash`, the model the [Quickstart](/docs/quickstart) uses.
 - `GET /v1/models` answered without a key on 2026-09-30; chat completions always needs one.
 - Add `-s -w "\nHTTP %{http_code}\n"` to any command to see the status code.
 

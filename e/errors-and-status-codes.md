@@ -14,7 +14,7 @@ last_checked: 2026-09-30
 - A wrong path returns HTTP 404 and a wrong method returns HTTP 405. Both bodies are HTML, not JSON, so don't assume every error parses as JSON.
 - HTTP 522 comes from Cloudflare and means luv13's servers couldn't be reached. Wait and retry.
 - When capacity is full, requests queue or fail. Retry with backoff; if one model is unavailable, the error names it and you can switch to another id.
-- Failed or empty calls aren't charged (per luv13.ai/docs).
+- Failed or empty calls aren't charged.
 
 ## What each code means
 

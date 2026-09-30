@@ -10,7 +10,7 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- luv13.ai/docs shows two fields in its example request: `model` and `messages`.
+- The [Quickstart](/docs/quickstart) shows two fields in its example request: `model` and `messages`.
 - `model` must be one of the seven ids from `GET /v1/models`, such as `luv13/glm-5.3-flash`.
 - luv13 uses the OpenAI chat completions format, so any other field uses its OpenAI name.
 - luv13 hasn't published which optional fields each model honors. Test any you rely on.
