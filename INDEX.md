@@ -7,6 +7,7 @@ A to Z list of every page.
 | Agents | `a/agents.md` | draft |
 | Aider | `a/aider.md` | draft |
 | API Key Best Practices | `a/api-key-best-practices.md` | draft |
+| Authentication | `a/auth.md` | draft |
 | Base URL | `b/base-url.md` | draft |
 | Browser Requests | `b/browser-requests.md` | draft |
 | Chain-of-Thought Prompting | `c/chain-of-thought-prompting.md` | draft |
@@ -56,6 +57,7 @@ A to Z list of every page.
 | Open-Weight Models | `o/open-weight-models.md` | draft |
 | OpenAI-Compatible APIs | `o/openai-compatible-apis.md` | draft |
 | OpenCode | `o/opencode.md` | draft |
+| Pricing | `p/pricing.md` | draft |
 | Prompt Engineering | `p/prompt-engineering.md` | draft |
 | Prompt Injection | `p/prompt-injection.md` | draft |
 | Python Example | `p/python-example.md` | draft |
