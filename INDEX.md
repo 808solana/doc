@@ -27,6 +27,7 @@ A to Z list of every page.
 | Hallucinations | `h/hallucinations.md` | draft |
 | Health Checks | `h/health-checks.md` | draft |
 | HTTP Headers | `h/http-headers.md` | draft |
+| Image Input | `i/image-input.md` | draft |
 | Input vs. Output Tokens | `i/input-vs-output-tokens.md` | draft |
 | JavaScript Example | `j/javascript-example.md` | draft |
 | JSON Mode | `j/json-mode.md` | draft |
