@@ -26,6 +26,7 @@ A to Z list of every page.
 | Server-Sent Events | `s/server-sent-events.md` | draft |
 | Stop Sequences | `s/stop-sequences.md` | draft |
 | Streaming | `s/streaming.md` | draft |
+| Streaming on luv13 | `s/streaming-on-luv13.md` | draft |
 | System Prompts | `s/system-prompts.md` | draft |
 | Temperature | `t/temperature.md` | draft |
 | Tool Calling | `t/tool-calling.md` | draft |
