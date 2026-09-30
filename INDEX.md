@@ -6,6 +6,7 @@ A to Z list of every page.
 |---|---|---|
 | API Key Best Practices | `a/api-key-best-practices.md` | draft |
 | Base URL | `b/base-url.md` | draft |
+| Browser Requests | `b/browser-requests.md` | draft |
 | Chain-of-Thought Prompting | `c/chain-of-thought-prompting.md` | draft |
 | Chat Completions | `c/chat-completions.md` | draft |
 | Context Window | `c/context-window.md` | draft |
