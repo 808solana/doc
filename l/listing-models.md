@@ -10,9 +10,10 @@ last_checked: 2026-09-30
 ## Key takeaways
 
 - The endpoint is `GET https://api.luv13.ai/v1/models`.
-- It returns the models luv13 serves right now, in the OpenAI list format.
+- It returns the seven models luv13 serves, in the OpenAI list format.
 - The `id` of each model is the exact value to put in the `model` field of a request.
-- Always copy ids from this list. Don't guess or retype them from memory, because a small typo makes a request fail.
+- On 2026-09-30 it answered without an API key, so it also works as a quick connectivity check. See [Health Checks](/docs/h/health-checks).
+- Always copy ids from this list. A small typo makes a request fail.
 
 ## Example
 
@@ -21,21 +22,43 @@ curl https://api.luv13.ai/v1/models \
   -H "Authorization: Bearer $LUV13_API_KEY"
 ```
 
+Sending your key is harmless and keeps the call working if luv13 starts requiring it. On 2026-09-30 the same call without the header also returned HTTP 200.
+
 ## The response
 
-In the OpenAI format, the response is an object with `"object": "list"` and a `data` array. Each item in `data` describes one model:
+The live response on 2026-09-30, trimmed to two of the seven entries:
 
-| Field | What it is |
+```json
+{
+  "data": [
+    {"created": 1700000000, "id": "luv13/deepseek-v4-pro", "object": "model", "owned_by": "luv13"},
+    {"created": 1700000000, "id": "luv13/deepseek-v4.1-flash", "object": "model", "owned_by": "luv13"}
+  ],
+  "object": "list"
+}
+```
+
+| Field | What it holds on luv13 |
 |---|---|
-| `id` | The model id. Use it as `model` in requests. |
-| `object` | Always `model`. |
-| `created` | When the model was added, as a Unix timestamp. |
-| `owned_by` | Who publishes the model. |
+| `object` (top level) | `list` |
+| `data` | One entry per model |
+| `id` | The model id, such as `luv13/kimi-k3`. Use it as `model` in requests. |
+| `object` (per entry) | `model` |
+| `created` | `1700000000` for every model. It's the same fixed value for all seven, so don't read it as the date a model was added. |
+| `owned_by` | `luv13` for every model |
 
-<!-- TODO: run the curl above against live /v1/models and replace this table with the fields luv13 actually returns, plus a trimmed real example. The API returned HTTP 522 on 2026-09-30. -->
+The full list on 2026-09-30 was `luv13/deepseek-v4-pro`, `luv13/deepseek-v4.1-flash`, `luv13/glm-5.3`, `luv13/glm-5.3-flash`, `luv13/kimi-k3`, `luv13/kimi-k3-fast` and `luv13/qwen-3.8-27b`.
+
+The response has no context length, modality or price fields. Those are on [Models](/docs/models) and [Pricing](/docs/pricing).
+
+To print only the ids:
+
+```bash
+curl -s https://api.luv13.ai/v1/models | jq -r '.data[].id'
+```
 
 ## Why it matters
 
-Most OpenAI-compatible tools call this endpoint to fill their model picker. If a tool shows no models, check the base URL and API key first. See [Base URL](/docs/b/base-url).
+Most OpenAI-compatible tools call this endpoint to fill their model picker. If a tool shows no models, check the base URL first; it must be exactly `https://api.luv13.ai/v1`. See [Base URL](/docs/b/base-url).
 
-For each model's details, see [Models](/docs/models). Every model has the same price; see [Pricing](/docs/pricing).
+There's no single-model endpoint: `GET /v1/models/luv13/kimi-k3` returns HTTP 404. Filter the list instead.
