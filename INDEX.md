@@ -31,6 +31,7 @@ A to Z list of every page.
 | Finish Reasons | `f/finish-reasons.md` | draft |
 | GLM 5.3 | `g/glm-5-3.md` | draft |
 | GLM-5.3 Flash | `g/glm-5-3-flash.md` | draft |
+| Glossary | `g/glossary.md` | draft |
 | Hallucinations | `h/hallucinations.md` | draft |
 | Health Checks | `h/health-checks.md` | draft |
 | HTTP Headers | `h/http-headers.md` | draft |
