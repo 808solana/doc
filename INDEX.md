@@ -19,6 +19,7 @@ A to Z list of every page.
 | Endpoints | `e/endpoints.md` | draft |
 | Environment Variables | `e/environment-variables.md` | draft |
 | Errors and Status Codes | `e/errors-and-status-codes.md` | draft |
+| Estimating Costs | `e/estimating-costs.md` | draft |
 | Few-Shot Prompting | `f/few-shot-prompting.md` | draft |
 | Fine-Tuning | `f/fine-tuning.md` | draft |
 | Finish Reasons | `f/finish-reasons.md` | draft |
