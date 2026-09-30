@@ -83,6 +83,7 @@ A to Z list of every page.
 | Tool Calling on luv13 | `t/tool-calling-on-luv13.md` | draft |
 | Troubleshooting | `t/troubleshooting.md` | draft |
 | Usage and Billing | `u/usage-and-billing.md` | draft |
+| Using Claude Code | `u/using-claude-code.md` | draft |
 | Using Cline | `u/using-cline.md` | draft |
 | Using Continue | `u/using-continue.md` | draft |
 | Using Cursor | `u/using-cursor.md` | draft |
