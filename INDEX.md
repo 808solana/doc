@@ -12,6 +12,7 @@ A to Z list of every page.
 | Chain-of-Thought Prompting | `c/chain-of-thought-prompting.md` | draft |
 | Chat Completions | `c/chat-completions.md` | draft |
 | Chat Templates | `c/chat-templates.md` | draft |
+| Compatible Tools | `c/compatible-tools.md` | draft |
 | Contact and Support | `c/contact-and-support.md` | draft |
 | Context Window | `c/context-window.md` | draft |
 | Conversation History | `c/conversation-history.md` | draft |
