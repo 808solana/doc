@@ -25,6 +25,7 @@ A to Z list of every page.
 | GLM-5.3 Flash | `g/glm-5-3-flash.md` | draft |
 | Hallucinations | `h/hallucinations.md` | draft |
 | Input vs. Output Tokens | `i/input-vs-output-tokens.md` | draft |
+| JavaScript Example | `j/javascript-example.md` | draft |
 | JSON Mode | `j/json-mode.md` | draft |
 | Kimi K3 | `k/kimi-k3.md` | draft |
 | Kimi K3 Fast | `k/kimi-k3-fast.md` | draft |
