@@ -49,7 +49,7 @@ The live response on 2026-09-30, trimmed to two of the seven entries:
 
 The full list on 2026-09-30 was `luv13/deepseek-v4-pro`, `luv13/deepseek-v4.1-flash`, `luv13/glm-5.3`, `luv13/glm-5.3-flash`, `luv13/kimi-k3`, `luv13/kimi-k3-fast` and `luv13/qwen-3.8-27b`.
 
-The response has no context length, modality or price fields. Those are on [Models](/docs/models) and [Pricing](/docs/pricing).
+The response has no context length, modality or price fields. Those are on the model list at [luv13.ai/#models](https://luv13.ai/#models) and on [Pricing](/docs/pricing).
 
 To print only the ids:
 
