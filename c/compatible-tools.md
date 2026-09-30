@@ -10,7 +10,7 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- luv13.ai lists these tools under "Use with": Cursor, VS Code, Cline, Claude Code, Open WebUI, Codex, Hermes and Kilo Code.
+- luv13.ai lists these tools under "Use with": Cursor, VS Code, Cline, Claude Code, Open WebUI, Codex, Hermes and Kilo Code. Claude Code and Codex don't work today.
 - Most need the same three settings: base URL `https://api.luv13.ai/v1`, your `sk-luv13-` key, and a model id such as `luv13/glm-5.3-flash`.
 - luv13 serves only `GET /v1/models` and `POST /v1/chat/completions`. A tool feature that calls another endpoint won't work.
 - Agent-style tools depend on tool calling. luv13 hasn't published per-model tool-calling support, so try more than one model.
@@ -27,8 +27,19 @@ Enter the base URL exactly. Don't add `/chat/completions`; the tool adds it. See
 
 ## Guides
 
-- Cline: [Using Cline](/docs/u/using-cline)
-- Any tool built on the OpenAI SDKs: [Using the OpenAI SDKs](/docs/u/using-the-openai-sdks)
+Status as tested on 2026-09-30. Each guide has the details.
+
+| Tool | Works with luv13? | Guide |
+|---|---|---|
+| Cursor | Yes, with caveats: only local Chat and Agent | [Using Cursor](/docs/u/using-cursor) |
+| VS Code | Yes, with caveats: inline suggestions and embeddings still need Copilot | [Using VS Code](/docs/u/using-vs-code) |
+| Cline | Yes | [Using Cline](/docs/u/using-cline) |
+| Kilo Code | Yes, with setup caveats | [Using Kilo Code](/docs/u/using-kilo-code) |
+| Open WebUI | Chat only | [Using Open WebUI](/docs/u/using-open-webui) |
+| Hermes Agent | Should work as a custom provider; not yet tested end to end | [Using Hermes](/docs/u/using-hermes) |
+| Claude Code | Not today: it needs `/v1/messages` | [Using Claude Code](/docs/u/using-claude-code) |
+| Codex | Not today: it needs `/v1/responses` | [Using Codex](/docs/u/using-codex) |
+| OpenAI SDK apps | Yes | [Using the OpenAI SDKs](/docs/u/using-the-openai-sdks) |
 
 ## Endpoints tools may call that luv13 doesn't serve
 
@@ -41,7 +52,7 @@ These returned 404 on 2026-09-30. If a tool needs one, that part of the tool won
 | `/v1/embeddings` | Codebase indexing and search |
 | `/v1/completions` | Older text completion, sometimes used for autocomplete |
 
-<!-- TODO: confirm with the operator how luv13 expects Claude Code and Codex to connect, since /v1/messages and /v1/responses return 404, and add guides for the listed tools once each setup is verified. -->
+<!-- TODO: update the Claude Code and Codex rows if the operator adds /v1/messages or /v1/responses. -->
 
 ## Test before you configure
 
