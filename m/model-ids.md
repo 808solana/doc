@@ -21,13 +21,13 @@ From live `GET /v1/models` on 2026-09-30, with the display names from luv13.ai/m
 
 | Id | Display name |
 |---|---|
-| `luv13/deepseek-v4-pro` | DeepSeek V4-Pro |
-| `luv13/deepseek-v4.1-flash` | DeepSeek V4.1 Flash |
-| `luv13/glm-5.3` | GLM 5.3 |
-| `luv13/glm-5.3-flash` | GLM-5.3 Flash |
-| `luv13/kimi-k3` | Kimi K3 |
-| `luv13/kimi-k3-fast` | Kimi K3 Fast |
-| `luv13/qwen-3.8-27b` | Qwen 3.8 27B |
+| `luv13/deepseek-v4-pro` | [DeepSeek V4-Pro](/docs/m/deepseek-v4-pro) |
+| `luv13/deepseek-v4.1-flash` | [DeepSeek V4.1 Flash](/docs/m/deepseek-v4-1-flash) |
+| `luv13/glm-5.3` | [GLM 5.3](/docs/m/glm-5-3) |
+| `luv13/glm-5.3-flash` | [GLM-5.3 Flash](/docs/m/glm-5-3-flash) |
+| `luv13/kimi-k3` | [Kimi K3](/docs/m/kimi-k3) |
+| `luv13/kimi-k3-fast` | [Kimi K3 Fast](/docs/m/kimi-k3-fast) |
+| `luv13/qwen-3.8-27b` | [Qwen 3.8 27B](/docs/m/qwen-3-8-27b) |
 
 ## Easy mistakes
 
@@ -46,4 +46,4 @@ curl -s https://api.luv13.ai/v1/models | jq -r '.data[].id'
 
 Some tools want the model name in a settings box. Paste the full id, including `luv13/`.
 
-For each model's details, see the model list at [luv13.ai/#models](https://luv13.ai/#models). Price is on [Pricing](/docs/p/pricing).
+Each display name links to that model's page. The model list is also at [luv13.ai/#models](https://luv13.ai/#models). Price is on [Pricing](/docs/p/pricing).

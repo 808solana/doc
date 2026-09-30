@@ -37,15 +37,15 @@ As listed by live `GET /v1/models` on 2026-09-30:
 
 | Model | Id |
 |---|---|
-| DeepSeek V4-Pro | `luv13/deepseek-v4-pro` |
-| DeepSeek V4.1 Flash | `luv13/deepseek-v4.1-flash` |
-| GLM 5.3 | `luv13/glm-5.3` |
-| GLM-5.3 Flash | `luv13/glm-5.3-flash` |
-| Kimi K3 | `luv13/kimi-k3` |
-| Kimi K3 Fast | `luv13/kimi-k3-fast` |
-| Qwen 3.8 27B | `luv13/qwen-3.8-27b` |
+| [DeepSeek V4-Pro](/docs/m/deepseek-v4-pro) | `luv13/deepseek-v4-pro` |
+| [DeepSeek V4.1 Flash](/docs/m/deepseek-v4-1-flash) | `luv13/deepseek-v4.1-flash` |
+| [GLM 5.3](/docs/m/glm-5-3) | `luv13/glm-5.3` |
+| [GLM-5.3 Flash](/docs/m/glm-5-3-flash) | `luv13/glm-5.3-flash` |
+| [Kimi K3](/docs/m/kimi-k3) | `luv13/kimi-k3` |
+| [Kimi K3 Fast](/docs/m/kimi-k3-fast) | `luv13/kimi-k3-fast` |
+| [Qwen 3.8 27B](/docs/m/qwen-3-8-27b) | `luv13/qwen-3.8-27b` |
 
-For each model's details, see [the model list](https://luv13.ai/#models).
+Each name links to that model's page. The model list is also at [luv13.ai/#models](https://luv13.ai/#models).
 
 ## Pricing
 
