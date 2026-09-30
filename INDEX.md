@@ -4,11 +4,14 @@ A to Z list of every page.
 
 | Title | Path | Status |
 |---|---|---|
+| Agents | `a/agents.md` | draft |
+| Aider | `a/aider.md` | draft |
 | API Key Best Practices | `a/api-key-best-practices.md` | draft |
 | Base URL | `b/base-url.md` | draft |
 | Browser Requests | `b/browser-requests.md` | draft |
 | Chain-of-Thought Prompting | `c/chain-of-thought-prompting.md` | draft |
 | Chat Completions | `c/chat-completions.md` | draft |
+| Chat Templates | `c/chat-templates.md` | draft |
 | Contact and Support | `c/contact-and-support.md` | draft |
 | Context Window | `c/context-window.md` | draft |
 | Conversation History | `c/conversation-history.md` | draft |
@@ -40,11 +43,13 @@ A to Z list of every page.
 | Listing Models | `l/listing-models.md` | draft |
 | Migrating from OpenAI | `m/migrating-from-openai.md` | draft |
 | Model IDs | `m/model-ids.md` | draft |
+| Model Routing | `m/model-routing.md` | draft |
 | Node.js Fetch | `n/nodejs-fetch.md` | draft |
 | Nucleus Sampling | `n/nucleus-sampling.md` | draft |
 | Open-Weight Models | `o/open-weight-models.md` | draft |
 | OpenAI-Compatible APIs | `o/openai-compatible-apis.md` | draft |
 | Prompt Engineering | `p/prompt-engineering.md` | draft |
+| Prompt Injection | `p/prompt-injection.md` | draft |
 | Python Example | `p/python-example.md` | draft |
 | Python Requests | `p/python-requests.md` | draft |
 | Quantization | `q/quantization.md` | draft |
@@ -54,6 +59,7 @@ A to Z list of every page.
 | Request Parameters | `r/request-parameters.md` | draft |
 | Retrieval-Augmented Generation | `r/retrieval-augmented-generation.md` | draft |
 | Retrying Requests | `r/retrying-requests.md` | draft |
+| Roo Code | `r/roo-code.md` | draft |
 | Server-Sent Events | `s/server-sent-events.md` | draft |
 | Stop Sequences | `s/stop-sequences.md` | draft |
 | Streaming | `s/streaming.md` | draft |
@@ -67,8 +73,12 @@ A to Z list of every page.
 | Tool Calling | `t/tool-calling.md` | draft |
 | Tool Calling on luv13 | `t/tool-calling-on-luv13.md` | draft |
 | Usage and Billing | `u/usage-and-billing.md` | draft |
+| Using Cline | `u/using-cline.md` | draft |
+| Using Continue | `u/using-continue.md` | draft |
 | Using the OpenAI SDKs | `u/using-the-openai-sdks.md` | draft |
+| Vibe Coding | `v/vibe-coding.md` | draft |
 | What Is a Token | `w/what-is-a-token.md` | draft |
 | What Is luv13 | `w/what-is-luv13.md` | draft |
 | XML Prompts | `x/xml-prompts.md` | draft |
+| YAML Config | `y/yaml-config.md` | draft |
 | Zero-Shot Prompting | `z/zero-shot-prompting.md` | draft |
