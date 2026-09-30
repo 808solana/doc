@@ -39,7 +39,7 @@ These numbers are an example. `prompt_tokens` is input, `completion_tokens` is o
 
 ## How pricing uses them
 
-Your cost for a request is the input tokens times the input price plus the output tokens times the output price. On luv13 the input and output prices are the same, a flat $0.33 per 1 million tokens on every model, so you can just multiply `total_tokens` by that one rate. See [Pricing](/docs/pricing).
+Your cost for a request is the input tokens times the input price plus the output tokens times the output price. On luv13 the input and output prices are the same, a flat $0.33 per 1 million tokens on every model, so you can just multiply `total_tokens` by that one rate. See [Pricing](/docs/p/pricing).
 
 For the example above, 970 total tokens cost 970 / 1,000,000 x $0.33, or about $0.00032.
 

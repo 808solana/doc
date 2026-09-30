@@ -24,7 +24,7 @@ last_checked: 2026-09-30
 
 ## On luv13
 
-All luv13 models share one base URL, one key and one flat price per token (see [Pricing](/docs/pricing)), so routing on luv13 is about speed and quality rather than cost per token. The ids come from the live list at `https://api.luv13.ai/v1/models`. See [Model IDs](/docs/m/model-ids).
+All luv13 models share one base URL, one key and one flat price per token (see [Pricing](/docs/p/pricing)), so routing on luv13 is about speed and quality rather than cost per token. The ids come from the live list at `https://api.luv13.ai/v1/models`. See [Model IDs](/docs/m/model-ids).
 
 ## Example
 
@@ -48,3 +48,7 @@ resp = client.chat.completions.create(
 )
 print(resp.choices[0].message.content)
 ```
+
+## Related
+
+This page covers the general idea. For how luv13 handles a request when a model is unavailable, see [Model Fallback](/docs/m/model-fallback).

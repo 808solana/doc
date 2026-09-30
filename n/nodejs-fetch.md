@@ -45,3 +45,7 @@ console.log(data.choices[0].message.content);
 - Keep this on the server. Calling luv13 from browser code would expose your key to anyone who opens the page. See [API Key Best Practices](/docs/a/api-key-best-practices).
 - For retries, types and streaming helpers, the [OpenAI SDKs](/docs/u/using-the-openai-sdks) may be easier.
 - For reading a streamed reply, see [Server-Sent Events](/docs/s/server-sent-events).
+
+## Related
+
+For a short luv13-only version of this example, see [JavaScript Example](/docs/j/javascript-example).

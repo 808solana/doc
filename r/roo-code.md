@@ -33,7 +33,7 @@ Roo Code sends its tools using OpenAI's `tools` format and expects the model to 
 
 Roo Code lets you set max output tokens, context window, image support and prices.
 
-- **Prices:** luv13 is a flat $0.33 per 1M tokens on every model, input the same as output. See [Pricing](/docs/pricing).
+- **Prices:** luv13 is a flat $0.33 per 1M tokens on every model, input the same as output. See [Pricing](/docs/p/pricing).
 - **Context window:** luv13 doesn't publish context lengths in its model list, so there's no official number to enter.
 
 ## Check your settings first

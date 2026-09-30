@@ -32,7 +32,7 @@ last_checked: 2026-09-30
 
 ## Cost and context
 
-Each step re-sends the conversation, so input tokens grow fast over a long task. On luv13 input and output cost the same per token (see [Pricing](/docs/pricing)), so the total token count is what drives cost. Watch `usage` and cap the number of steps. See [Conversation History](/docs/c/conversation-history).
+Each step re-sends the conversation, so input tokens grow fast over a long task. On luv13 input and output cost the same per token (see [Pricing](/docs/p/pricing)), so the total token count is what drives cost. Watch `usage` and cap the number of steps. See [Conversation History](/docs/c/conversation-history).
 
 ## Example
 

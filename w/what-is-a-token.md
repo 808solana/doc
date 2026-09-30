@@ -25,7 +25,7 @@ Each model family has its own tokenizer, so the same sentence can come out as a 
 
 Tokens decide two practical things:
 
-1. **Cost.** You pay for the tokens you send and the tokens you get back. On luv13 the price is a flat $0.33 per 1 million tokens on every model, with input and output at the same rate. See [Pricing](/docs/pricing).
+1. **Cost.** You pay for the tokens you send and the tokens you get back. On luv13 the price is a flat $0.33 per 1 million tokens on every model, with input and output at the same rate. See [Pricing](/docs/p/pricing).
 2. **Length.** Every model has a maximum number of tokens it can handle in one request, counting both your prompt and its reply. See [Context Window](/docs/c/context-window).
 
 ## Seeing your token count

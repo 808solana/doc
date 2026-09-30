@@ -49,3 +49,7 @@ Passing a dict to `json=` encodes the body and sets `Content-Type: application/j
 - A `5xx` means a server-side problem. Retrying later often works.
 
 For luv13's own error codes, see [Errors and Status Codes](/docs/e/errors-and-status-codes). To read a streamed reply with `requests`, see [Server-Sent Events](/docs/s/server-sent-events).
+
+## Related
+
+For a short luv13-only version of this example, see [Python Example](/docs/p/python-example).

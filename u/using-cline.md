@@ -30,7 +30,7 @@ last_checked: 2026-09-30
 
 Cline's OpenAI Compatible provider has a **Model Configuration** section for values like max output tokens, context window size, image support, and input and output price.
 
-- **Price:** luv13 charges a flat $0.33 per 1M tokens on every model, input the same as output. Enter that as both the input and output price if you want Cline's cost estimates to match. See [Pricing](/docs/pricing).
+- **Price:** luv13 charges a flat $0.33 per 1M tokens on every model, input the same as output. Enter that as both the input and output price if you want Cline's cost estimates to match. See [Pricing](/docs/p/pricing).
 - **Context window:** luv13's model list doesn't publish context lengths, so there's no official number to enter. Leave Cline's default or ask the operator. See [Context Window](/docs/c/context-window).
 
 ## Troubleshooting
