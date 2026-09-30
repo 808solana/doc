@@ -61,6 +61,7 @@ A to Z list of every page.
 | Python Example | `p/python-example.md` | draft |
 | Python Requests | `p/python-requests.md` | draft |
 | Quantization | `q/quantization.md` | draft |
+| Quickstart | `q/quickstart.md` | draft |
 | Qwen 3.8 27B | `m/qwen-3-8-27b.md` | draft |
 | Rate Limiting | `r/rate-limiting.md` | draft |
 | Reasoning Models | `r/reasoning-models.md` | draft |
