@@ -73,6 +73,7 @@ A to Z list of every page.
 | Tokenizers | `t/tokenizers.md` | draft |
 | Tool Calling | `t/tool-calling.md` | draft |
 | Tool Calling on luv13 | `t/tool-calling-on-luv13.md` | draft |
+| Troubleshooting | `t/troubleshooting.md` | draft |
 | Usage and Billing | `u/usage-and-billing.md` | draft |
 | Using Cline | `u/using-cline.md` | draft |
 | Using Continue | `u/using-continue.md` | draft |
