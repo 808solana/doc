@@ -45,7 +45,7 @@ As listed by live `GET /v1/models` on 2026-09-30:
 | [Kimi K3 Fast](/docs/m/kimi-k3-fast) | `luv13/kimi-k3-fast` |
 | [Qwen 3.8 27B](/docs/m/qwen-3-8-27b) | `luv13/qwen-3.8-27b` |
 
-Each name links to that model's page. The model list is also at [luv13.ai/#models](https://luv13.ai/#models).
+Each name links to that model's page. The model list is also at [Models](/docs/models).
 
 ## Pricing
 

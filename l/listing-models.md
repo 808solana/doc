@@ -54,7 +54,7 @@ The full list on 2026-09-30 was `luv13/deepseek-v4-pro`, `luv13/deepseek-v4.1-fl
 
 Each model has its own page: [DeepSeek V4-Pro](/docs/m/deepseek-v4-pro), [DeepSeek V4.1 Flash](/docs/m/deepseek-v4-1-flash), [GLM 5.3](/docs/m/glm-5-3), [GLM-5.3 Flash](/docs/m/glm-5-3-flash), [Kimi K3](/docs/m/kimi-k3), [Kimi K3 Fast](/docs/m/kimi-k3-fast) and [Qwen 3.8 27B](/docs/m/qwen-3-8-27b).
 
-The response has no context length, modality or price fields. Those are on the model list at [luv13.ai/#models](https://luv13.ai/#models) and on [Pricing](/docs/p/pricing).
+The response has no context length, modality or price fields. Those are on the model list at [Models](/docs/models) and on [Pricing](/docs/p/pricing).
 
 To print only the ids:
 

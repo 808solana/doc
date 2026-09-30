@@ -39,7 +39,7 @@ Price on luv13: see [Pricing](/docs/p/pricing).
 
 ## Examples
 
-This model is temporarily unavailable on luv13, so there are no runnable examples here. When it's back, it uses the same request as any other model, with `"model": "luv13/deepseek-v4-pro"`; see [Chat Completions](/docs/c/chat-completions). Until then, use another id from [the model list](https://luv13.ai/#models), such as [DeepSeek V4.1 Flash](/docs/m/deepseek-v4-1-flash).
+This model is temporarily unavailable on luv13, so there are no runnable examples here. When it's back, it uses the same request as any other model, with `"model": "luv13/deepseek-v4-pro"`; see [Chat Completions](/docs/c/chat-completions). Until then, use another id from [the model list](/docs/models), such as [DeepSeek V4.1 Flash](/docs/m/deepseek-v4-1-flash).
 
 <!-- TODO: add curl, Python and JS examples once the operator confirms luv13/deepseek-v4-pro is available again. -->
 
@@ -63,7 +63,7 @@ See [Pricing](/docs/p/pricing).
 ## Related
 
 - [DeepSeek V4.1 Flash](/docs/m/deepseek-v4-1-flash)
-- [the model list](https://luv13.ai/#models)
+- [the model list](/docs/models)
 - [Model IDs](/docs/m/model-ids)
 
 ## Sources

@@ -48,4 +48,4 @@ curl -s https://api.luv13.ai/v1/models | jq -r '.data[].id'
 
 Some tools want the model name in a settings box. Paste the full id, including `luv13/`.
 
-Each display name links to that model's page. The model list is also at [luv13.ai/#models](https://luv13.ai/#models). Price is on [Pricing](/docs/p/pricing).
+Each display name links to that model's page. The model list is also at [Models](/docs/models). Price is on [Pricing](/docs/p/pricing).

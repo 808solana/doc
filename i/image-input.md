@@ -33,4 +33,4 @@ From luv13.ai/models on 2026-09-30:
 
 <!-- TODO: ask the operator for the request format for video input. -->
 
-For the current list, see [the model list](https://luv13.ai/#models). If you fall back between models, only fall back to one that takes the same inputs; see [Model Fallback](/docs/m/model-fallback).
+For the current list, see [the model list](/docs/models). If you fall back between models, only fall back to one that takes the same inputs; see [Model Fallback](/docs/m/model-fallback).

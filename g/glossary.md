@@ -12,7 +12,7 @@ last_checked: 2026-09-30
 
 - Every entry is specific to luv13 and was checked on luv13.ai or the live API on 2026-09-30.
 - For general concepts, see [What Is a Token](/docs/w/what-is-a-token) and [Context Window](/docs/c/context-window).
-- For the models themselves, see [the model list](https://luv13.ai/#models).
+- For the models themselves, see [the model list](/docs/models).
 
 ## Terms
 

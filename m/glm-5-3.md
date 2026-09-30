@@ -101,7 +101,7 @@ See [Pricing](/docs/p/pricing).
 ## Related
 
 - [GLM-5.3 Flash](/docs/m/glm-5-3-flash)
-- [the model list](https://luv13.ai/#models)
+- [the model list](/docs/models)
 - [Model IDs](/docs/m/model-ids)
 
 ## Sources

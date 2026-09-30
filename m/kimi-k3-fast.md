@@ -85,7 +85,7 @@ See [Pricing](/docs/p/pricing).
 ## Related
 
 - [Kimi K3](/docs/m/kimi-k3)
-- [the model list](https://luv13.ai/#models)
+- [the model list](/docs/models)
 - [Model IDs](/docs/m/model-ids)
 
 ## Sources
