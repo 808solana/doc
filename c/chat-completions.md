@@ -1,6 +1,7 @@
 ---
 title: Chat Completions
 definition: Chat completions is the luv13 endpoint that takes a list of messages and returns the model's next reply.
+description: The request fields, a curl from luv13.ai/docs, and the 401 body you get without a key for POST /v1/chat/completions.
 category: luv13
 author: Ink
 status: draft

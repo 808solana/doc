@@ -1,6 +1,7 @@
 ---
 title: Usage and Billing
 definition: Usage and billing is how luv13 charges the tokens your requests use against your prepaid credit, at a flat $0.33 per 1M tokens.
+description: "How luv13 bills: one rate for input and output, prepaid USD credit from $5, no subscription, and no charge for failed calls."
 category: luv13
 author: Ink
 status: draft

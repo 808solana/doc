@@ -1,6 +1,7 @@
 ---
 title: Streaming on luv13
 definition: Streaming means receiving a chat completion reply in pieces as it's generated; on luv13 it would be requested in the OpenAI format, and per-model support isn't published yet.
+description: How to test a streamed reply from luv13 with curl, and where to read about the OpenAI streaming format.
 category: luv13
 author: Ink
 status: draft

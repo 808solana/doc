@@ -1,6 +1,7 @@
 ---
 title: HTTP Headers
 definition: HTTP headers are the name-value lines sent with each luv13 request and response; you need two on requests, Authorization and Content-Type.
+description: The two headers every luv13 chat request needs, and the response headers you'll see, such as content-type and cf-ray.
 category: luv13
 author: Ink
 status: draft

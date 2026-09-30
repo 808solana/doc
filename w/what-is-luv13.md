@@ -1,6 +1,7 @@
 ---
 title: What Is luv13
 definition: luv13 is an OpenAI-compatible API that serves seven open-weight models from one base URL and one API key, at one flat price per token.
+description: "An overview of luv13: the base URL, its two endpoints, the seven model ids, the flat price and how to send a first request."
 category: luv13
 author: Ink
 status: draft

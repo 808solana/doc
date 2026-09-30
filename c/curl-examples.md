@@ -1,6 +1,7 @@
 ---
 title: curl Examples
 definition: curl examples are ready-to-run terminal commands for luv13's two endpoints, listing models and sending a chat completion.
+description: Copy-paste curl commands to list luv13 models, send a chat message, post a long prompt from a file and test your key.
 category: luv13
 author: Ink
 status: draft

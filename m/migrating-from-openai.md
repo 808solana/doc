@@ -1,6 +1,7 @@
 ---
 title: Migrating from OpenAI
 definition: Migrating from OpenAI means moving code that calls the OpenAI API over to luv13 by changing the base URL, the API key and the model id.
+description: The three settings to change when moving OpenAI code to luv13, a Python example, and a checklist for unsupported endpoints.
 category: luv13
 author: Ink
 status: draft

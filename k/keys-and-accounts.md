@@ -1,6 +1,7 @@
 ---
 title: Keys and Accounts
 definition: A luv13 account is where you create API keys, which start with sk-luv13-, and hold the prepaid credit that your requests spend.
+description: "How a luv13 account and key fit together: Google or email sign-in, sk-luv13- keys shown once, prepaid top-ups and the Bearer header."
 category: luv13
 author: Ink
 status: draft

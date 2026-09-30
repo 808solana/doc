@@ -1,6 +1,7 @@
 ---
 title: Image Input
 definition: Image input means sending a picture to a luv13 model that accepts images; five of the seven models list image input, and all return text.
+description: Which of the seven luv13 model ids list image or video input, per luv13.ai, and what is still unconfirmed about sending images.
 category: luv13
 author: Ink
 status: draft

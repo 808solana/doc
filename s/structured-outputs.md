@@ -1,6 +1,7 @@
 ---
 title: Structured Outputs
 definition: Structured outputs are replies constrained to JSON; on luv13 they would be requested with the OpenAI response_format field, and support isn't published yet.
+description: A safe way to get JSON from luv13 models with prompting and validation while response_format support is unconfirmed.
 category: luv13
 author: Ink
 status: draft

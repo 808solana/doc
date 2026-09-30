@@ -1,6 +1,7 @@
 ---
 title: Endpoints
 definition: luv13's endpoints are the two URL paths under https://api.luv13.ai/v1 that it serves, one to list models and one to create chat completions.
+description: Which paths under api.luv13.ai/v1 answer, which return 404, and a short shell loop to check them yourself.
 category: luv13
 author: Ink
 status: draft

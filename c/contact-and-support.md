@@ -1,6 +1,7 @@
 ---
 title: Contact and Support
 definition: Contact and support covers how to reach the luv13 team, by email at hi@luv13.ai or the form on luv13.ai, and what to include so a problem can be traced.
+description: Where to email or message the luv13 team and which request details to include so a problem report can be acted on.
 category: luv13
 author: Ink
 status: draft

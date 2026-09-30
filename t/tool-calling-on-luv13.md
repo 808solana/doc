@@ -1,6 +1,7 @@
 ---
 title: Tool Calling on luv13
 definition: Tool calling lets a model ask your code to run a function; on luv13 it would be requested in the OpenAI format, and per-model support isn't published yet.
+description: What is and isn't known about tool calling on luv13, with links to the general guide and the tools that depend on it.
 category: luv13
 author: Ink
 status: draft

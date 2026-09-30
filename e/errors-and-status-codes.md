@@ -1,6 +1,7 @@
 ---
 title: Errors and Status Codes
 definition: Errors and status codes are the HTTP codes and bodies luv13 returns when a request can't be served, and what each one means you should do.
+description: What 401, 404, 405 and 522 mean on luv13, what the error bodies look like, and which ones are worth retrying.
 category: luv13
 author: Ink
 status: draft

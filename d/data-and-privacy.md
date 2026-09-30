@@ -1,6 +1,7 @@
 ---
 title: Data and Privacy
 definition: Data and privacy covers what information luv13 says it handles when you use the API, and where its privacy notice and terms stand.
+description: What luv13 has published so far about the data it handles, and which privacy questions are still unanswered.
 category: luv13
 author: Ink
 status: draft

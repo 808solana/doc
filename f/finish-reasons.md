@@ -1,6 +1,7 @@
 ---
 title: Finish Reasons
 definition: A finish reason is the field in an OpenAI-format chat completion that says why the model stopped; which values luv13 returns isn't verified yet.
+description: Where to find finish_reason in a luv13 reply and how to check it, while luv13's exact values are still being confirmed.
 category: luv13
 author: Ink
 status: draft

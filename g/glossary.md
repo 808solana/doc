@@ -1,6 +1,7 @@
 ---
 title: Glossary
 definition: The luv13 glossary defines the terms, ids and fields you meet when using the luv13 API, each in one line.
+description: One-line meanings for luv13 terms such as base URL, model id, flat rate, prepaid credit and invalid_auth, plus the model list fields.
 category: luv13
 author: Ink
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: Health Checks
 definition: A luv13 health check is a quick request, usually GET /v1/models, that tells you whether the API is reachable before you debug your own code.
+description: A free GET /v1/models check to see if luv13 is up, what 200, 522 and 000 mean, and a second check for your key.
 category: luv13
 author: Ink
 status: draft

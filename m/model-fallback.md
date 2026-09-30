@@ -1,6 +1,7 @@
 ---
 title: Model Fallback
 definition: Model fallback means trying a second luv13 model id when the first one is unavailable, instead of failing or waiting.
+description: A Python pattern that switches to another luv13 model id on availability errors but stops at once on a bad key.
 category: luv13
 author: Ink
 status: draft

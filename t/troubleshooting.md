@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting
 definition: Troubleshooting is a symptom-to-fix list for the most common problems when calling luv13, based on the responses the API actually returns.
+description: A symptom-to-fix table for luv13 errors, CORS failures and base URL mistakes, with what each tool setting ends up calling.
 category: luv13
 author: Ink
 status: draft

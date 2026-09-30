@@ -1,6 +1,7 @@
 ---
 title: Request Parameters
 definition: Request parameters are the fields in the JSON body of a luv13 chat completion request; model and messages are the ones luv13 documents today.
+description: The two fields luv13 documents, model and messages, and links for the optional OpenAI fields whose support is unconfirmed.
 category: luv13
 author: Ink
 status: draft

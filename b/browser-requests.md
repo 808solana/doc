@@ -1,6 +1,7 @@
 ---
 title: Browser Requests
 definition: Browser requests are calls to luv13 made from JavaScript running in a web page, which luv13 blocks for other sites' origins, so they should go through your own server.
+description: Why fetch() from a web page to luv13 fails CORS preflight, and a small Node.js server route that keeps your key off the client.
 category: luv13
 author: Ink
 status: draft

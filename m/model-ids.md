@@ -1,6 +1,7 @@
 ---
 title: Model IDs
 definition: A model ID is the exact string, such as luv13/kimi-k3, that you put in the model field of a luv13 request to choose which model answers.
+description: All seven luv13 model ids beside their display names, plus the prefix, dot and hyphen mistakes that break requests.
 category: luv13
 author: Ink
 status: draft

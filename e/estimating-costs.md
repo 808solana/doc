@@ -1,6 +1,7 @@
 ---
 title: Estimating Costs
 definition: Estimating costs means turning luv13 token counts into dollars with one multiplication, because every model has the same flat rate and input costs the same as output.
+description: Quick cost tables, a one-line formula and a worked multi-turn example for luv13's flat $0.33 per 1M tokens.
 category: luv13
 author: Ink
 status: draft

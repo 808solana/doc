@@ -1,6 +1,7 @@
 ---
 title: FAQ
 definition: The luv13 FAQ answers the questions people ask most about the API, each in a sentence or two, using only facts luv13 has published or that were checked live.
+description: Short answers to common luv13 questions on keys, models, price, billing, images, browsers, limits and data.
 category: luv13
 author: Ink
 status: draft

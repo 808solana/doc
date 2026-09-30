@@ -1,6 +1,7 @@
 ---
 title: Dashboard
 definition: The luv13 dashboard at luv13.ai/dashboard is where you sign in, create API keys, top up prepaid credit and see your balance and recent usage.
+description: "What you can do in the luv13 dashboard: sign in with Google or email, create a key, top up from $5 and check your balance."
 category: luv13
 author: Ink
 status: draft

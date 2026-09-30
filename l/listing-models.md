@@ -1,6 +1,7 @@
 ---
 title: Listing Models
 definition: Listing models means calling luv13's GET /v1/models endpoint to see every model id you can use right now.
+description: The live GET /v1/models response, what each field holds, and a jq one-liner that prints just the seven ids.
 category: luv13
 author: Ink
 status: draft

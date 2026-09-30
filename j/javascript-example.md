@@ -1,6 +1,7 @@
 ---
 title: JavaScript Example
 definition: The JavaScript example is a short Node.js script that calls luv13 with the official OpenAI JavaScript SDK.
+description: "A tested Node.js script using the OpenAI SDK against luv13: list models, send one message, handle a 401."
 category: luv13
 author: Ink
 status: draft

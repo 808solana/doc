@@ -1,6 +1,7 @@
 ---
 title: Retrying Requests
 definition: Retrying requests means sending a failed luv13 call again after a growing wait, and only for errors that can succeed on a second try.
+description: Which luv13 errors to retry, how to back off, and the retry settings built into the OpenAI SDKs and curl.
 category: luv13
 author: Ink
 status: draft

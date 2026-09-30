@@ -1,6 +1,7 @@
 ---
 title: Python Example
 definition: The Python example is a short script that calls luv13 with the official OpenAI Python SDK.
+description: "A tested Python script using the OpenAI SDK against luv13: list models, send one message, catch a 401."
 category: luv13
 author: Ink
 status: draft

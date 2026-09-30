@@ -1,6 +1,7 @@
 ---
 title: Compatible Tools
 definition: Compatible tools are apps and coding agents that accept an OpenAI-style base URL and key, and so can use luv13 models once pointed at https://api.luv13.ai/v1.
+description: The tools luv13.ai names, the three settings they need, and which API paths they may call that luv13 doesn't serve.
 category: luv13
 author: Ink
 status: draft

@@ -1,6 +1,7 @@
 ---
 title: API Key Best Practices
 definition: API key best practices are the habits that keep your luv13 key, which starts with sk-luv13- and spends your prepaid credit, from leaking or being misused.
+description: How to store, send and protect your sk-luv13- key so no one else can spend your prepaid balance, and what to do if it leaks.
 category: luv13
 author: Ink
 status: draft
