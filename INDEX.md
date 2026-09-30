@@ -9,6 +9,7 @@ A to Z list of every page.
 | Browser Requests | `b/browser-requests.md` | draft |
 | Chain-of-Thought Prompting | `c/chain-of-thought-prompting.md` | draft |
 | Chat Completions | `c/chat-completions.md` | draft |
+| Contact and Support | `c/contact-and-support.md` | draft |
 | Context Window | `c/context-window.md` | draft |
 | Conversation History | `c/conversation-history.md` | draft |
 | curl Examples | `c/curl-examples.md` | draft |
