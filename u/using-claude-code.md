@@ -103,10 +103,10 @@ General tip: remove `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` from your sh
 
 ## Sources
 
-- Claude Code docs, "Other LLM gateways", https://code.claude.com/docs/en/llm-gateway (read 2026-09-30)
-- Claude Code docs, "Gateway compatibility guide" (API formats), https://code.claude.com/docs/en/llm-gateway-protocol (read 2026-09-30)
-- Claude Code docs, "Connect Claude Code to an LLM gateway" (variables, verification request, troubleshooting table), https://code.claude.com/docs/en/llm-gateway-connect (read 2026-09-30)
-- Claude Code changelog, https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md (latest entry 2.1.285 on 2026-09-30)
+- [Claude Code docs, "Other LLM gateways"](https://code.claude.com/docs/en/llm-gateway) (read 2026-09-30)
+- [Claude Code docs, "Gateway compatibility guide" (API formats)](https://code.claude.com/docs/en/llm-gateway-protocol) (read 2026-09-30)
+- [Claude Code docs, "Connect Claude Code to an LLM gateway" (variables, verification request, troubleshooting table)](https://code.claude.com/docs/en/llm-gateway-connect) (read 2026-09-30)
+- [Claude Code changelog](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) (latest entry 2.1.285 on 2026-09-30)
 - luv13's `/v1/messages` checked live with curl on 2026-09-30 (404).
 
 Related: [Endpoints](/docs/e/endpoints), [OpenAI-Compatible APIs](/docs/o/openai-compatible-apis).

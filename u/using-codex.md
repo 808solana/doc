@@ -129,10 +129,10 @@ General tip: a proxy that converts Responses API requests to Chat Completions co
 
 ## Sources
 
-- Codex docs, "Advanced configuration", https://developers.openai.com/codex/config-advanced (read 2026-09-30)
-- Codex docs, "Configuration reference", `model_providers.<id>.wire_api` entry, https://developers.openai.com/codex/config-reference (read 2026-09-30)
-- Codex source at tag `rust-v0.159.2`, `codex-rs/model-provider-info/src/lib.rs`, https://github.com/openai/codex (read 2026-09-30)
-- Codex latest GitHub release `rust-v0.159.2`, published 2026-09-29, https://github.com/openai/codex/releases
+- [Codex docs, "Advanced configuration"](https://developers.openai.com/codex/config-advanced) (read 2026-09-30)
+- [Codex docs, "Configuration reference"](https://developers.openai.com/codex/config-reference), `model_providers.<id>.wire_api` entry (read 2026-09-30)
+- [Codex source at tag rust-v0.159.2, codex-rs/model-provider-info/src/lib.rs](https://github.com/openai/codex/blob/rust-v0.159.2/codex-rs/model-provider-info/src/lib.rs) (read 2026-09-30)
+- [Codex releases on GitHub](https://github.com/openai/codex/releases) (latest `rust-v0.159.2`, published 2026-09-29)
 - luv13 `/v1/responses` returning 404, checked live with curl on 2026-09-30
 
 Related: [Using Claude Code](/docs/u/using-claude-code), [Using Cline](/docs/u/using-cline), [Endpoints](/docs/e/endpoints), [Compatible Tools](/docs/c/compatible-tools).

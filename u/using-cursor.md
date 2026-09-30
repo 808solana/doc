@@ -119,9 +119,9 @@ General tip: if a request fails and you're not sure whether the problem is Curso
 
 ## Sources
 
-- Cursor, "Bring your own API key", https://cursor.com/help/models-and-usage/api-keys (read 2026-09-30)
-- OpenAI Help Center, "Using OpenAI models in Cursor", https://help.openai.com/en/articles/20001506-using-openai-models-in-cursor (marked "Updated: last month", read 2026-09-30)
-- Cursor forum, staff replies on the base URL override: https://forum.cursor.com/t/cursor-managed-models-are-routed-through-override-openai-base-url/169088 (August and September 2026) and https://forum.cursor.com/t/the-custom-override-of-the-openai-base-url-is-unusable/152675 (February 2026)
+- [Cursor, "Bring your own API key"](https://cursor.com/help/models-and-usage/api-keys) (read 2026-09-30)
+- [OpenAI Help Center, "Using OpenAI models in Cursor"](https://help.openai.com/en/articles/20001506-using-openai-models-in-cursor) (marked "Updated: last month", read 2026-09-30)
+- [Cursor forum, staff replies on the base URL override](https://forum.cursor.com/t/cursor-managed-models-are-routed-through-override-openai-base-url/169088) (August and September 2026) and [Cursor forum, "The custom override of the OpenAI base URL is unusable"](https://forum.cursor.com/t/the-custom-override-of-the-openai-base-url-is-unusable/152675) (February 2026)
 - luv13 endpoints and errors checked live with curl on 2026-09-30.
 
 Related: [Base URL](/docs/b/base-url), [OpenAI-Compatible APIs](/docs/o/openai-compatible-apis), [Errors and Status Codes](/docs/e/errors-and-status-codes).

@@ -150,9 +150,9 @@ General tip: Hermes's docs say that when no reasoning effort is configured, `cha
 
 ## Sources
 
-- Hermes Agent docs, "AI Providers" (`website/docs/integrations/providers.md` on `main`), https://hermes-agent.nousresearch.com/docs/integrations/providers (read 2026-09-30). Covers Custom & Self-Hosted LLM Providers, Named Custom Providers, Context Length Detection and Troubleshooting Local Models.
-- Hermes Agent docs, "FAQ & Troubleshooting", https://hermes-agent.nousresearch.com/docs/reference/faq (read 2026-09-30)
-- Hermes Agent latest GitHub release `v2026.9.24`, published 2026-09-24, https://github.com/NousResearch/hermes-agent/releases
+- [Hermes Agent docs, "AI Providers"](https://hermes-agent.nousresearch.com/docs/integrations/providers) (`website/docs/integrations/providers.md` on `main`, read 2026-09-30). Covers Custom & Self-Hosted LLM Providers, Named Custom Providers, Context Length Detection and Troubleshooting Local Models.
+- [Hermes Agent docs, "FAQ & Troubleshooting"](https://hermes-agent.nousresearch.com/docs/reference/faq) (read 2026-09-30)
+- [Hermes Agent releases on GitHub](https://github.com/NousResearch/hermes-agent/releases) (latest `v2026.9.24`, published 2026-09-24)
 - luv13 endpoints checked live with curl on 2026-09-30
 
 Related: [Using Cline](/docs/u/using-cline), [Using Codex](/docs/u/using-codex), [Compatible Tools](/docs/c/compatible-tools).

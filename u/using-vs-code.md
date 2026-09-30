@@ -149,8 +149,8 @@ General tip: if agent requests fail but plain chat works, set `"toolCalling": fa
 
 ## Sources
 
-- VS Code docs, "AI language models in VS Code", https://code.visualstudio.com/docs/copilot/customization/language-models (page dated 9/30/2026, read 2026-09-30). Covers BYOK, the Custom Endpoint provider, its configuration reference, URL resolution and utility models.
-- VS Code release list, https://update.code.visualstudio.com/api/releases/stable (latest stable 1.140.0 on 2026-09-30)
+- [VS Code docs, "AI language models in VS Code"](https://code.visualstudio.com/docs/copilot/customization/language-models) (page dated 9/30/2026, read 2026-09-30). Covers BYOK, the Custom Endpoint provider, its configuration reference, URL resolution and utility models.
+- [VS Code release list](https://update.code.visualstudio.com/api/releases/stable) (latest stable 1.140.0 on 2026-09-30)
 - luv13 endpoints and errors checked live with curl on 2026-09-30.
 
 Related: [Using Cursor](/docs/u/using-cursor), [Base URL](/docs/b/base-url), [OpenAI-Compatible APIs](/docs/o/openai-compatible-apis).

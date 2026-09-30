@@ -140,10 +140,10 @@ General tip: admin connections are made from the Open WebUI server, not your bro
 
 ## Sources
 
-- Open WebUI docs, "OpenAI-Compatible", https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible (read 2026-09-30). Covers the connection steps, Verify Connection, Model IDs, the Provider setting, required endpoints and supported parameters.
-- Open WebUI docs, "Quick Start" (the `docker run` command), https://docs.openwebui.com/getting-started/quick-start (read 2026-09-30)
-- Open WebUI docs, "Connection Errors" (blank tool replies, streaming behind nginx, backend and frontend connections), https://docs.openwebui.com/troubleshooting/connection-error (read 2026-09-30)
-- Open WebUI source, `package.json` on `main`, https://github.com/open-webui/open-webui (version 0.11.4 on 2026-09-30)
+- [Open WebUI docs, "OpenAI-Compatible"](https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible) (read 2026-09-30). Covers the connection steps, Verify Connection, Model IDs, the Provider setting, required endpoints and supported parameters.
+- [Open WebUI docs, "Quick Start"](https://docs.openwebui.com/getting-started/quick-start) (the `docker run` command, read 2026-09-30)
+- [Open WebUI docs, "Connection Errors" (blank tool replies, streaming behind nginx, backend and frontend connections)](https://docs.openwebui.com/troubleshooting/connection-error) (read 2026-09-30)
+- [Open WebUI source, package.json on main](https://github.com/open-webui/open-webui/blob/main/package.json) (version 0.11.4 on 2026-09-30)
 - luv13 endpoints checked live with curl on 2026-09-30, including `/v1/models` returning 200 with an invalid key.
 
 Related: [Using Cursor](/docs/u/using-cursor), [Retrieval-Augmented Generation](/docs/r/retrieval-augmented-generation), [Streaming](/docs/s/streaming).

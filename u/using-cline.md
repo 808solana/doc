@@ -116,11 +116,11 @@ General tip: Cline's cost display uses the prices you enter. It doesn't read luv
 
 ## Sources
 
-- Cline docs, "OpenAI Compatible", https://docs.cline.bot/provider-config/openai-compatible (read 2026-09-30)
-- Cline docs, "Config", https://docs.cline.bot/getting-started/config (read 2026-09-30)
-- Cline docs, "CLI Reference", https://docs.cline.bot/cli/cli-reference (read 2026-09-30)
-- Cline docs, "Networking and Proxies", https://docs.cline.bot/troubleshooting/networking-and-proxies (read 2026-09-30)
-- Cline releases on GitHub, https://github.com/cline/cline/releases (latest: desktop-v0.0.39, 2026-09-30)
+- [Cline docs, "OpenAI Compatible"](https://docs.cline.bot/provider-config/openai-compatible) (read 2026-09-30)
+- [Cline docs, "Config"](https://docs.cline.bot/getting-started/config) (read 2026-09-30)
+- [Cline docs, "CLI Reference"](https://docs.cline.bot/cli/cli-reference) (read 2026-09-30)
+- [Cline docs, "Networking and Proxies"](https://docs.cline.bot/troubleshooting/networking-and-proxies) (read 2026-09-30)
+- [Cline releases on GitHub](https://github.com/cline/cline/releases) (latest: desktop-v0.0.39, 2026-09-30)
 - luv13 endpoints and errors checked live with curl on 2026-09-30.
 
 Related: [Using Cursor](/docs/u/using-cursor), [Base URL](/docs/b/base-url), [Agents](/docs/a/agents).
