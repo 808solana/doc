@@ -12,6 +12,7 @@ A to Z list of every page.
 | Context Window | `c/context-window.md` | draft |
 | Conversation History | `c/conversation-history.md` | draft |
 | curl Examples | `c/curl-examples.md` | draft |
+| Dashboard | `d/dashboard.md` | draft |
 | Data and Privacy | `d/data-and-privacy.md` | draft |
 | DeepSeek V4-Pro | `d/deepseek-v4-pro.md` | draft |
 | DeepSeek V4.1 Flash | `d/deepseek-v4-1-flash.md` | draft |
