@@ -20,7 +20,7 @@ last_checked: 2026-09-30
 | Setting | Value |
 |---|---|
 | Base URL (may be called API base, endpoint or OpenAI base URL) | `https://api.luv13.ai/v1` |
-| API key | Your key from the [dashboard](https://luv13.ai/dashboard) |
+| API key | Your key from the [dashboard](https://dash.luv13.ai) |
 | Model | An id from `GET /v1/models`, entered in full including `luv13/` |
 
 Enter the base URL exactly. Don't add `/chat/completions`; the tool adds it. See [Troubleshooting](/docs/t/troubleshooting).

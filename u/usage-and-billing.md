@@ -12,11 +12,11 @@ last_checked: 2026-09-30
 
 - You pay per token: a flat $0.33 per 1M tokens on every model, and input tokens cost the same as output tokens.
 - Billing is prepaid credit in USD. luv13.ai/pricing says: "Top up any amount from $5 in your dashboard." Usage draws down the balance.
-- Your balance and recent usage are in the [dashboard](https://luv13.ai/dashboard).
+- Your balance is in the [dashboard](https://dash.luv13.ai) (confirmed by the luv13 operator team on 2026-09-17). <!-- TODO: confirm with the operator whether recent usage is shown in the dashboard. -->
 
 Price and top-up are from live luv13.ai/pricing and docs.luv13.ai/quickstart, checked on 2026-09-30.
 
-<!-- TODO: confirm with the operator the payment method, whether there's any subscription, and where balance and usage show in the dashboard. -->
+<!-- TODO: confirm with the operator the payment method, and whether there's any subscription. -->
 
 ## How a request is charged
 
@@ -30,7 +30,9 @@ Worked example: 800,000 input tokens plus 200,000 output tokens is 1,000,000 tok
 
 For more worked numbers, see [Estimating Costs](/docs/e/estimating-costs). For input and output tokens in general, see [Input vs. Output Tokens](/docs/i/input-vs-output-tokens).
 
-<!-- TODO: confirm with the operator which response fields billing uses, and what happens when the balance reaches zero. -->
+When there isn't enough credit, the [Quickstart](/docs/quickstart) lists `402 insufficient_funds_error`: "Top up at [https://luv13.ai/top-up](https://luv13.ai/top-up)."
+
+<!-- TODO: confirm with the operator which response fields billing uses. -->
 
 <!-- TODO: confirm with the operator whether failed or empty calls are charged. -->
 

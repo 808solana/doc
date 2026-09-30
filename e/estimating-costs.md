@@ -52,4 +52,4 @@ If you send the full history each turn, and every turn adds 500 tokens of questi
 
 Ten turns total 55,000 tokens, about $0.018, although only 10,000 tokens of new text were written. Trimming or summarizing old turns keeps this down; see [Conversation History](/docs/c/conversation-history).
 
-Your balance and actual usage are in the [dashboard](https://luv13.ai/dashboard). See [Usage and Billing](/docs/u/usage-and-billing).
+Your balance is in the [dashboard](https://dash.luv13.ai) (confirmed by the luv13 operator team on 2026-09-17). <!-- TODO: confirm with the operator whether recent usage is shown in the dashboard. --> See [Usage and Billing](/docs/u/usage-and-billing).

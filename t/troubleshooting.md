@@ -24,11 +24,12 @@ last_checked: 2026-09-30
 | `404` with an HTML page | Wrong path: missing `/v1`, doubled `/v1/v1`, a trailing slash, or an endpoint luv13 doesn't serve | Use `https://api.luv13.ai/v1` as the base URL; see [Endpoints](/docs/e/endpoints) |
 | `405` with an HTML page | `GET` sent to `/v1/chat/completions` | Use `POST` |
 | `522` | luv13's servers unreachable behind Cloudflare | Wait and retry; see [Health Checks](/docs/h/health-checks) |
+| `402` with `insufficient_funds_error` | Not enough credit, per the [Quickstart](/docs/quickstart) | "Top up at [https://luv13.ai/top-up](https://luv13.ai/top-up)." |
 | CORS error in the browser console | luv13 rejects cross-origin browser calls | Call luv13 from your server; see [Browser Requests](/docs/b/browser-requests) |
 | JSON parse error in your code | The error body was HTML (404 or 405) | Check the status code before parsing |
 | Tool feature fails, chat works | The feature uses an endpoint luv13 doesn't serve, such as embeddings | Turn that feature off, or use another service for it |
 
-<!-- TODO: add rows for an unknown model id, an unavailable model, slow or failing requests under load, and an empty balance once the operator confirms their status codes and bodies. -->
+<!-- TODO: add rows for an unknown model id, an unavailable model, and slow or failing requests under load once the operator confirms their status codes and bodies. -->
 
 ## Base URL mistakes
 

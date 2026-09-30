@@ -12,7 +12,7 @@ last_checked: 2026-09-30
 
 - Email hi@luv13.ai. It's the contact address on luv13.ai, and the [Quickstart](/docs/quickstart) gives it for anyone who can't use the dashboard.
 - luv13.ai also has a contact form (email and message) on the home page.
-- Balance and recent usage are self-serve in the [dashboard](https://luv13.ai/dashboard).
+- Your balance is self-serve in the [dashboard](https://dash.luv13.ai) (confirmed by the luv13 operator team on 2026-09-17). <!-- TODO: confirm with the operator whether recent usage is shown in the dashboard. -->
 - Never send your full API key in an email or form.
 
 ## What to include

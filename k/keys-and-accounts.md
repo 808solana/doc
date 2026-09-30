@@ -10,7 +10,7 @@ last_checked: 2026-09-30
 
 ## Key takeaways
 
-- You sign in to the [dashboard](https://luv13.ai/dashboard) with Google or email and create a key there.
+- You sign in to the [dashboard](https://dash.luv13.ai) with Google or email and create a key there.
 - A luv13 key starts with `sk-luv13-`. The full key is shown once, when you create it, so copy it right away.
 - The account is prepaid: luv13.ai/pricing says "Top up any amount from $5 in your dashboard", and usage draws down the balance.
 - Send the key in the `Authorization: Bearer` header on every chat completion request.
@@ -45,10 +45,12 @@ A missing or wrong key returns HTTP 401 with `"type": "invalid_auth"`. See [Erro
 
 | What | Detail |
 |---|---|
-| Sign-in | Google or email, at luv13.ai/dashboard |
+| Sign-in | Google or email, at dash.luv13.ai |
 | Billing | Prepaid credit in USD; top up any amount from $5 in the dashboard (luv13.ai/pricing) |
 | Price | $0.33 per 1M tokens on every model, input the same as output |
 | Charges | Usage draws down the balance |
-| Balance and usage | Shown in the dashboard |
+| Balance | Shown in the dashboard (confirmed by the luv13 operator team on 2026-09-17) |
+
+<!-- TODO: confirm with the operator whether recent usage is shown in the dashboard. -->
 
 Keep the key out of client-side code; anyone who reads it can spend your balance. See [API Key Best Practices](/docs/a/api-key-best-practices). How to authenticate is on [Authentication](/docs/a/auth), and prices on [Pricing](/docs/p/pricing).

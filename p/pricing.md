@@ -51,14 +51,16 @@ More worked numbers are on [Estimating Costs](/docs/e/estimating-costs).
 | What | Detail |
 |---|---|
 | Model | Prepaid credit in USD |
-| Top-up | Any amount from $5, in the [dashboard](https://luv13.ai/dashboard) |
+| Top-up | Any amount from $5, in the [dashboard](https://dash.luv13.ai) |
 | Charges | Usage draws down the balance |
 
 <!-- TODO: confirm with the operator the payment method and whether there's any subscription. -->
 
-Your balance and recent usage are in the dashboard. See [Usage and Billing](/docs/u/usage-and-billing) and [Keys and Accounts](/docs/k/keys-and-accounts).
+Your balance is shown in the dashboard (confirmed by the luv13 operator team on 2026-09-17). See [Usage and Billing](/docs/u/usage-and-billing) and [Keys and Accounts](/docs/k/keys-and-accounts).
 
-<!-- TODO: ask the operator what happens when the balance reaches zero. -->
+<!-- TODO: confirm with the operator whether recent usage is shown in the dashboard. -->
+
+When there isn't enough credit, the Quickstart lists `402 insufficient_funds_error`: "Top up at [https://luv13.ai/top-up](https://luv13.ai/top-up)."
 
 ## Try it
 

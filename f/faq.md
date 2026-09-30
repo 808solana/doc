@@ -21,7 +21,7 @@ last_checked: 2026-09-30
 `https://api.luv13.ai/v1`.
 
 **How do I get a key?**
-Sign in to the [dashboard](https://luv13.ai/dashboard) with Google or email and create one. It's shown once. See [Authentication](/docs/a/auth).
+Sign in to the [dashboard](https://dash.luv13.ai) with Google or email and create one. It's shown once. See [Authentication](/docs/a/auth).
 
 **Which models can I use?**
 Seven, listed by `GET /v1/models`: `luv13/deepseek-v4-pro`, `luv13/deepseek-v4.1-flash`, `luv13/glm-5.3`, `luv13/glm-5.3-flash`, `luv13/kimi-k3`, `luv13/kimi-k3-fast` and `luv13/qwen-3.8-27b` (as of 2026-09-30). See [the model list](/docs/models).
@@ -40,8 +40,7 @@ With prepaid credit in USD. luv13.ai/pricing says: "Top up any amount from $5 in
 <!-- TODO: add "Is there a subscription?" and "Am I charged for errors?" once the operator confirms the answers. -->
 
 **What happens when my balance runs out?**
-Not published yet.
-<!-- TODO: fill in from the operator's answer on out-of-balance behaviour. -->
+The [Quickstart](/docs/quickstart) lists `402 insufficient_funds_error`: "Top up at [https://luv13.ai/top-up](https://luv13.ai/top-up)."
 
 ## Using it
 

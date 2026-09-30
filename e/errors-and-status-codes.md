@@ -28,7 +28,9 @@ All of these were seen live on 2026-09-30.
 | 405 | HTML "Method Not Allowed" | Right path, wrong method, such as `GET /v1/chat/completions` | Use `POST` for chat completions |
 | 522 | Cloudflare page | luv13's origin servers are unreachable | Retry later with backoff; see [Health Checks](/docs/h/health-checks) |
 
-<!-- TODO: confirm with the operator the status code and body for: an unknown model id, a model that's unavailable or over capacity, an empty balance, a malformed JSON body with a valid key, and rate limiting. -->
+The Quickstart also lists `402 insufficient_funds_error`: "Top up at [https://luv13.ai/top-up](https://luv13.ai/top-up)." That one wasn't seen live.
+
+<!-- TODO: confirm with the operator the status code and body for: an unknown model id, a model that's unavailable or over capacity, a malformed JSON body with a valid key, and rate limiting. -->
 
 ## The 401 body
 
