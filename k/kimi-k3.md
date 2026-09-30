@@ -30,7 +30,6 @@ Values are from live `GET /v1/models` and luv13.ai/models on 2026-09-30. If they
 
 It accepts text, image and video input and returns text. For how to send an image, see [Image Input](/docs/i/image-input).
 
-
 luv13 also serves [Kimi K3 Fast](/docs/k/kimi-k3-fast) (`luv13/kimi-k3-fast`). luv13.ai doesn't publish how the two differ in speed or quality, so test both on your own prompts. Price is the same, so cost isn't a reason to pick one over the other.
 <!-- TODO: ask the operator for a one-line, checkable difference between Kimi K3 and Kimi K3 Fast. -->
 
