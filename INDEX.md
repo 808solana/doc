@@ -16,5 +16,6 @@ A to Z list of every page.
 | Kimi K3 Fast | `k/kimi-k3-fast.md` | draft |
 | Listing Models | `l/listing-models.md` | draft |
 | OpenAI-Compatible APIs | `o/openai-compatible-apis.md` | draft |
+| Qwen 3.8 27B | `q/qwen-3-8-27b.md` | draft |
 | What Is a Token | `w/what-is-a-token.md` | draft |
 | What Is luv13 | `w/what-is-luv13.md` | draft |
