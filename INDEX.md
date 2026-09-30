@@ -15,7 +15,17 @@ A to Z list of every page.
 | Kimi K3 | `k/kimi-k3.md` | draft |
 | Kimi K3 Fast | `k/kimi-k3-fast.md` | draft |
 | Listing Models | `l/listing-models.md` | draft |
+| Node.js Fetch | `n/nodejs-fetch.md` | draft |
+| Nucleus Sampling | `n/nucleus-sampling.md` | draft |
 | OpenAI-Compatible APIs | `o/openai-compatible-apis.md` | draft |
+| Python Requests | `p/python-requests.md` | draft |
 | Qwen 3.8 27B | `q/qwen-3-8-27b.md` | draft |
+| Server-Sent Events | `s/server-sent-events.md` | draft |
+| Stop Sequences | `s/stop-sequences.md` | draft |
+| Streaming | `s/streaming.md` | draft |
+| System Prompts | `s/system-prompts.md` | draft |
+| Temperature | `t/temperature.md` | draft |
+| Tool Calling | `t/tool-calling.md` | draft |
+| Using the OpenAI SDKs | `u/using-the-openai-sdks.md` | draft |
 | What Is a Token | `w/what-is-a-token.md` | draft |
 | What Is luv13 | `w/what-is-luv13.md` | draft |
