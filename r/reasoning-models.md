@@ -34,7 +34,7 @@ That extra work has costs:
 
 ## On luv13
 
-luv13 lists its models at `https://api.luv13.ai/v1/models`, but that list doesn't say which ones are reasoning models. See the model pages under [Listing Models](/docs/l/listing-models) and [Request Parameters](/docs/r/request-parameters) for what luv13 supports. For a prompting approach that works on any model, see [Chain-of-Thought Prompting](/docs/c/chain-of-thought-prompting).
+luv13 lists its models at `https://api.luv13.ai/v1/models`, but that list doesn't say which ones are reasoning models. See the [luv13 model list](https://luv13.ai/#models), [Listing Models](/docs/l/listing-models) and [Request Parameters](/docs/r/request-parameters) for what luv13 supports. For a prompting approach that works on any model, see [Chain-of-Thought Prompting](/docs/c/chain-of-thought-prompting).
 
 ## Example
 

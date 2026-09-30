@@ -33,7 +33,7 @@ The catch is that running a large model yourself takes a lot of GPU memory and w
 
 ## On luv13
 
-luv13 serves models from the DeepSeek, GLM, Kimi and Qwen families. Their makers have published open weights for many releases, but check each vendor's own release notes and license for the exact version you use. luv13's current ids are at `https://api.luv13.ai/v1/models`, and each model has its own page, such as [Qwen 3.8 27B](/docs/q/qwen-3-8-27b).
+luv13 serves models from the DeepSeek, GLM, Kimi and Qwen families. Their makers have published open weights for many releases, but check each vendor's own release notes and license for the exact version you use. luv13's current models are listed at [luv13.ai](https://luv13.ai/#models), and the API list is covered on [Listing Models](/docs/l/listing-models).
 
 ## Example
 
