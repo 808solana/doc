@@ -32,7 +32,7 @@ luv13 is prepaid. Anyone holding your key can make requests that draw down your 
 
 - Paste the key into chats, tickets, screenshots or public repos.
 - Log full request headers. Mask the key if you log requests at all.
-- Put the key in a URL. luv13 reads it from the `Authorization` header only; `x-api-key` returns 401.
+- Put the key in a URL. URLs end up in logs and browser history. Send it in the `Authorization: Bearer` header, the way luv13.ai/docs shows.
 
 ## If a key leaks
 
