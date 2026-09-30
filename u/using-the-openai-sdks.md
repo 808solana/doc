@@ -61,7 +61,7 @@ console.log(resp.choices[0].message.content);
 
 ## Retries and timeouts
 
-Both SDKs retry certain errors (such as connection errors, 429 and 5xx responses) twice by default with a short backoff. Set `max_retries` (Python) or `maxRetries` (JavaScript) to change that, and `timeout` to change the 10-minute default. See [Retries and Backoff](/docs/r/retries-and-backoff) and [Timeouts](/docs/t/timeouts).
+Both SDKs retry certain errors (such as connection errors, 429 and 5xx responses) twice by default with a short backoff. Set `max_retries` (Python) or `maxRetries` (JavaScript) to change that, and `timeout` to change the 10-minute default. See [Retrying Requests](/docs/r/retrying-requests) and [Timeouts](/docs/t/timeouts).
 
 ## Things to know
 

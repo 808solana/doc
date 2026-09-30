@@ -46,7 +46,7 @@ A network read can split a line in the middle, so buffer text until you reach a 
 
 ## On luv13
 
-luv13 streams replies when you send `"stream": true`. See [Streaming](/docs/s/streaming) for the idea and [Streaming on luv13](/docs/s/streaming-on-luv13) for luv13's details.
+To ask luv13 for a streamed reply, send `"stream": true`. See [Streaming](/docs/s/streaming) for the idea and [Streaming on luv13](/docs/s/streaming-on-luv13) for what's confirmed on luv13.
 
 ## Example
 

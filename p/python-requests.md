@@ -45,7 +45,7 @@ Passing a dict to `json=` encodes the body and sets `Content-Type: application/j
 ## Handling errors
 
 - A `401` means the key is missing or wrong.
-- A `429` means you're sending too fast. Wait and retry. See [Retries and Backoff](/docs/r/retries-and-backoff).
+- A `429` means you're sending too fast. Wait and retry. See [Retrying Requests](/docs/r/retrying-requests).
 - A `5xx` means a server-side problem. Retrying later often works.
 
 For luv13's own error codes, see [Errors and Status Codes](/docs/e/errors-and-status-codes). To read a streamed reply with `requests`, see [Server-Sent Events](/docs/s/server-sent-events).
