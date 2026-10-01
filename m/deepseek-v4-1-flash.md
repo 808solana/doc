@@ -5,7 +5,7 @@ description: "DeepSeek's image-and-text V4.1 Flash on luv13: the maker's key fac
 category: luv13
 author: Ink
 status: draft
-last_checked: 2026-09-30
+last_checked: 2026-10-01
 model_id: luv13/deepseek-v4.1-flash
 maker: "DeepSeek"
 open_weights: true
@@ -31,6 +31,8 @@ sources:
 ## Overview
 
 DeepSeek-V4.1-Flash is a multimodal Mixture-of-Experts model with 552B backbone parameters. DeepSeek describes it as the smallest model in its new architecture family, trained from scratch on a 45T-token multimodal corpus, with image understanding built in from the start of pre-training.
+
+DeepSeek's model card says it uses a Causal Encoder-Decoder (CED) layout: about 8B parameters active on input (prefill) and 16B on output (decode). DeepSeek also describes compressed sparse attention and FP4 KV caching that cuts the global KV cache footprint to roughly a quarter of its earlier V4-Flash generation. Vision embeddings are trained jointly with text from the start of pre-training, not bolted on later.
 
 DeepSeek says it scores ahead of its own V4-Pro on the benchmarks in its release notes, and it has replaced DeepSeek's earlier V4-Flash models on DeepSeek's own API.
 
