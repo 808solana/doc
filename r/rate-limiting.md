@@ -25,7 +25,7 @@ A provider tracks your usage over a short window, such as a minute. When you go 
 - **Spread out requests.** Use a queue instead of firing everything at once.
 - **Limit concurrency.** Run a fixed number of requests in parallel.
 - **Use fewer tokens.** Shorter prompts and a sensible `max_tokens` help if limits count tokens.
-- **Back off on 429.** See [Retrying Requests](/docs/r/retrying-requests).
+- **Back off on 429.** See [Retrying Requests](/r/retrying-requests).
 - **Cache answers** for repeated identical requests when that fits your app.
 
 ## Handling a 429
@@ -35,7 +35,7 @@ A provider tracks your usage over a short window, such as a minute. When you go 
 3. Otherwise wait with exponential backoff and jitter.
 4. Retry a limited number of times, then report the error.
 
-For the error format luv13 returns, see [Errors and Status Codes](/docs/e/errors-and-status-codes).
+For the error format luv13 returns, see [Errors and Status Codes](/e/errors-and-status-codes).
 
 ## Example
 
