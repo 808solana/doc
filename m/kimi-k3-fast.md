@@ -5,7 +5,7 @@ description: "What is and isn't documented about luv13/kimi-k3-fast, with copy-p
 category: luv13
 author: Ink
 status: draft
-last_checked: 2026-09-30
+last_checked: 2026-10-01
 model_id: luv13/kimi-k3-fast
 availability: available
 sources:
@@ -15,7 +15,8 @@ sources:
 ## Key takeaways
 
 - The luv13 model id is `luv13/kimi-k3-fast`.
-- Moonshot AI's official model list doesn't include a model named Kimi K3 Fast (checked 2026-09-30), so this page gives no maker specs.
+- Moonshot AI's official model list doesn't include a model named Kimi K3 Fast (checked 2026-10-01), so this page gives no maker specs.
+- There is no separate maker product page for a "Fast" SKU; do not invent context, modalities, or architecture for this id.
 - luv13 hasn't published how it differs from `luv13/kimi-k3`.
 - For the maker's facts about Kimi K3 itself, see [Kimi K3](/docs/m/kimi-k3).
 
@@ -25,9 +26,9 @@ luv13 lists this model as "Kimi K3 Fast". The name points to [Kimi K3](/docs/m/k
 
 <!-- TODO: ask the operator what luv13/kimi-k3-fast is and how it differs from luv13/kimi-k3, and whether an official Moonshot source describes it. -->
 
-If you're choosing between the two, send the same prompts to both ids and compare.
+**Gaps (as of 2026-10-01):** no Moonshot Fast model card, no published maker modalities or context window for this id, and no luv13 note on how routing or latency differs from `luv13/kimi-k3`. Price is still the flat luv13 rate; see [Pricing](/docs/p/pricing).
 
-Price on luv13: see [Pricing](/docs/p/pricing).
+If you're choosing between the two, send the same prompts to both ids and compare.
 
 ## Examples
 
@@ -90,5 +91,5 @@ See [Pricing](/docs/p/pricing).
 
 ## Sources
 
-- [Kimi API model list (Moonshot AI)](https://platform.kimi.ai/docs/models) (Moonshot AI's model list; checked 2026-09-30, no Kimi K3 Fast entry)
+- [Kimi API model list (Moonshot AI)](https://platform.kimi.ai/docs/models) (Moonshot AI's model list; checked 2026-10-01, no Kimi K3 Fast entry)
 - [luv13 model list (live GET /v1/models)](https://api.luv13.ai/v1/models) (luv13 model id)

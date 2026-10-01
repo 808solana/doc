@@ -1,6 +1,6 @@
 # luv13 docs index
 
-A to Z list of every page.
+A to Z list of every page. Maker source URLs for models and harnesses live in [SOURCES.md](SOURCES.md).
 
 | Title | Path | Status |
 |---|---|---|
@@ -76,6 +76,7 @@ A to Z list of every page.
 | Streaming | `s/streaming.md` | draft |
 | Streaming on luv13 | `s/streaming-on-luv13.md` | draft |
 | Structured Outputs | `s/structured-outputs.md` | draft |
+| Sources | `SOURCES.md` | draft |
 | System Prompts | `s/system-prompts.md` | draft |
 | Temperature | `t/temperature.md` | draft |
 | Throughput | `t/throughput.md` | draft |

@@ -5,7 +5,7 @@ description: The tools luv13.ai names, the three settings they need, and which A
 category: luv13
 author: Ink
 status: draft
-last_checked: 2026-09-30
+last_checked: 2026-10-01
 ---
 
 ## Key takeaways
@@ -27,7 +27,7 @@ Enter the base URL exactly. Don't add `/chat/completions`; the tool adds it. See
 
 ## Guides
 
-Status as tested on 2026-09-30. Each guide has the details.
+Status as tested on 2026-09-30. Each guide has the details. The [Use with](#use-with) sections below match the anchors on luv13.ai (`#cursor`, `#vs-code`, and the rest).
 
 | Tool | Works with luv13? | Guide |
 |---|---|---|
@@ -40,6 +40,58 @@ Status as tested on 2026-09-30. Each guide has the details.
 | Claude Code | Not today: it needs `/v1/messages` | [Using Claude Code](/docs/u/using-claude-code) |
 | Codex | Not today: it needs `/v1/responses` | [Using Codex](/docs/u/using-codex) |
 | OpenAI SDK apps | Yes | [Using the OpenAI SDKs](/docs/u/using-the-openai-sdks) |
+
+## Use with
+
+Short landing sections for the tools named on luv13.ai. Full setup steps live in each guide.
+
+<a id="cursor"></a>
+
+## Cursor
+
+Point Cursor's OpenAI API key and **Override OpenAI Base URL** at `https://api.luv13.ai/v1`. Local Chat and Agent can use luv13; Tab, Auto, Cloud Agents, and the Cursor CLI cannot. See [Using Cursor](/docs/u/using-cursor).
+
+<a id="vs-code"></a>
+
+## VS Code
+
+Configure VS Code's custom OpenAI-compatible chat endpoint with base URL `https://api.luv13.ai/v1`, your luv13 key, and a `luv13/` model id. Inline suggestions and embeddings still need Copilot or another provider. See [Using VS Code](/docs/u/using-vs-code).
+
+<a id="cline"></a>
+
+## Cline
+
+In Cline, choose the **OpenAI Compatible** provider, set base URL `https://api.luv13.ai/v1`, paste your luv13 key, and enter a model such as `luv13/glm-5.3-flash`. See [Using Cline](/docs/u/using-cline).
+
+<a id="claude-code"></a>
+
+## Claude Code
+
+Claude Code does not work with luv13 today. It needs Anthropic-style `POST /v1/messages`, which luv13 does not serve. See [Using Claude Code](/docs/u/using-claude-code).
+
+<a id="open-webui"></a>
+
+## Open WebUI
+
+Add luv13 as an OpenAI-compatible connection: base URL `https://api.luv13.ai/v1`, your luv13 key, and a `luv13/` model id. Chat works; features that call embeddings or other paths will not. See [Using Open WebUI](/docs/u/using-open-webui).
+
+<a id="codex"></a>
+
+## Codex
+
+OpenAI's Codex CLI does not work with luv13 today. It needs `POST /v1/responses`, which luv13 does not serve. See [Using Codex](/docs/u/using-codex).
+
+<a id="hermes"></a>
+
+## Hermes
+
+Configure Hermes Agent with a custom OpenAI-compatible provider pointing at `https://api.luv13.ai/v1` and a `luv13/` model id. Expected to work; not yet tested end to end on luv13. See [Using Hermes](/docs/u/using-hermes).
+
+<a id="kilo-code"></a>
+
+## Kilo Code
+
+Point Kilo Code's OpenAI-compatible settings at `https://api.luv13.ai/v1` with your luv13 key and a `luv13/` model id. See [Using Kilo Code](/docs/u/using-kilo-code).
 
 ## Endpoints tools may call that luv13 doesn't serve
 
