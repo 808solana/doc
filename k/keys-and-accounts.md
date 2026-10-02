@@ -12,11 +12,11 @@ last_checked: 2026-09-30
 
 - You sign in to the [dashboard](https://dash.luv13.ai) with Google or email and create a key there.
 - A luv13 key starts with `sk-luv13-`. The full key is shown once, when you create it, so copy it right away.
-- The account is prepaid: luv13.ai/pricing says "Top up any amount from $5 in your dashboard", and usage draws down the balance.
+- The account is prepaid: you top up any amount from $5 in the dashboard (confirmed by the luv13 operator team, 2026-10-02), and usage draws down the balance.
 - Send the key in the `Authorization: Bearer` header on every chat completion request.
 - If you can't use the dashboard, the Quickstart says to email hi@luv13.ai.
 
-Checked on 2026-09-30: the key format, Bearer header and email are from the Quickstart, the top-up from live luv13.ai/pricing, and sign-in from luv13's original docs page.
+Checked on 2026-09-30: the key format, Bearer header and email are from the Quickstart, the $5 minimum top-up from the luv13 operator team (2026-10-02), and sign-in from luv13's original docs page.
 
 <!-- TODO: confirm with the operator the sign-in options, the payment method, whether there's any subscription, and whether failed or empty calls are charged. -->
 
@@ -46,7 +46,7 @@ A missing or wrong key returns HTTP 401 with `"type": "invalid_auth"`. See [Erro
 | What | Detail |
 |---|---|
 | Sign-in | Google or email, at dash.luv13.ai |
-| Billing | Prepaid credit in USD; top up any amount from $5 in the dashboard (luv13.ai/pricing) |
+| Billing | Prepaid credit in USD; top up any amount from $5 in the dashboard (confirmed by the operator team, 2026-10-02) |
 | Price | $0.33 per 1M tokens on every model, input the same as output |
 | Charges | Usage draws down the balance |
 | Balance | Shown in the dashboard (confirmed by the luv13 operator team on 2026-09-17) |

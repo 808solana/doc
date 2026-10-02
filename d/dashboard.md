@@ -13,10 +13,10 @@ last_checked: 2026-09-30
 - The address is `https://dash.luv13.ai`.
 - Sign in with Google or with email.
 - Create API keys there. The full key starts with `sk-luv13-` and is shown once, at creation.
-- Top up prepaid credit there. luv13.ai/pricing says: "Top up any amount from $5 in your dashboard."
+- Top up prepaid credit there, any amount from $5 (confirmed by the luv13 operator team, 2026-10-02).
 - Your balance is shown there (confirmed by the luv13 operator team on 2026-09-17). <!-- TODO: confirm with the operator whether recent usage is shown in the dashboard. -->
 
-Checked on 2026-09-30: the top-up is from live luv13.ai/pricing, the key format from the [Quickstart](/docs/quickstart), and sign-in from luv13's original docs page. The balance view was confirmed by the luv13 operator team on 2026-09-17.
+Checked on 2026-09-30: the $5 minimum top-up was confirmed by the luv13 operator team on 2026-10-02, the key format from the [Quickstart](/docs/quickstart), and sign-in from luv13's original docs page. The balance view was confirmed by the luv13 operator team on 2026-09-17.
 
 <!-- TODO: confirm with the operator the sign-in options, the payment method, and whether there's any subscription. -->
 
@@ -26,7 +26,7 @@ Checked on 2026-09-30: the top-up is from live luv13.ai/pricing, the key format 
 |---|---|
 | Sign in | Google or email |
 | Create a key | Copy it right away; it's shown only once. Store it as `LUV13_API_KEY`. See [API Key Best Practices](/docs/a/api-key-best-practices). |
-| Top up | Any amount from $5, in USD (luv13.ai/pricing) |
+| Top up | Any amount from $5, in USD (confirmed by the operator team, 2026-10-02) |
 | Check balance | Usage draws the balance down at $0.33 per 1M tokens |
 | Check recent usage | Compare with the `usage` your code logs. See [Usage and Billing](/docs/u/usage-and-billing). |
 

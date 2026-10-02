@@ -35,7 +35,7 @@ Chat completion code does, after changing the base URL, key and model id. Embedd
 $0.33 per 1M tokens on every model; input and output cost the same. 800k in + 200k out = 1.0M tokens = $0.33. See [Pricing](/docs/p/pricing).
 
 **How do I pay?**
-With prepaid credit in USD. luv13.ai/pricing says: "Top up any amount from $5 in your dashboard."
+With prepaid credit in USD. You top up any amount from $5 in the dashboard (confirmed by the luv13 operator team, 2026-10-02).
 
 <!-- TODO: add "Is there a subscription?" and "Am I charged for errors?" once the operator confirms the answers. -->
 

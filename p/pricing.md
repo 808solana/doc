@@ -12,15 +12,15 @@ last_checked: 2026-09-30
 
 - Every model costs $0.33 per 1M tokens.
 - Input costs the same as output, so only the total token count matters.
-- Billing is prepaid credit in USD. luv13.ai/pricing says: "Top up any amount from $5 in your dashboard."
+- Billing is prepaid credit in USD. You top up any amount from $5 in the dashboard (confirmed by the luv13 operator team, 2026-10-02).
 
-Checked on 2026-09-30 against live luv13.ai/pricing and docs.luv13.ai/quickstart.
+Checked on 2026-10-02 against live [models.luv13.ai](https://models.luv13.ai) and docs.luv13.ai/quickstart. The $5 minimum top-up was confirmed by the luv13 operator team on 2026-10-02.
 
 <!-- TODO: confirm with the operator whether failed or empty calls are charged. -->
 
 ## Price by model
 
-All seven ids from live `GET https://api.luv13.ai/v1/models`, with the price listed on luv13.ai/pricing:
+All seven ids from live `GET https://api.luv13.ai/v1/models`, with the price listed on [models.luv13.ai](https://models.luv13.ai):
 
 | Model | Id | Price per 1M tokens |
 |---|---|---|

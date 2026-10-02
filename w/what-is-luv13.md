@@ -14,7 +14,7 @@ last_checked: 2026-09-30
 - The base URL is `https://api.luv13.ai/v1`.
 - One API key works for all seven models. The current list is always at `GET /v1/models`.
 - Every model costs a flat $0.33 per 1M tokens, and input costs the same as output. See [Pricing](/docs/p/pricing).
-- Billing is prepaid: luv13.ai/pricing says "Top up any amount from $5 in your dashboard", and usage draws it down.
+- Billing is prepaid: you top up any amount from $5 in the dashboard (confirmed by the luv13 operator team, 2026-10-02), and usage draws it down.
 
 ## How it works
 
@@ -49,7 +49,7 @@ Each name links to that model's page. The model list is also at [Models](/docs/m
 
 ## Pricing
 
-Every model costs a flat $0.33 per 1M tokens, and input tokens cost the same as output tokens (checked against live luv13.ai/pricing on 2026-09-30). For example, 800,000 input tokens plus 200,000 output tokens is 1.0M tokens, which costs $0.33. The [Pricing](/docs/p/pricing) page is the source of truth.
+Every model costs a flat $0.33 per 1M tokens, and input tokens cost the same as output tokens (checked against live [models.luv13.ai](https://models.luv13.ai) on 2026-10-02). For example, 800,000 input tokens plus 200,000 output tokens is 1.0M tokens, which costs $0.33. The [Pricing](/docs/p/pricing) page is the source of truth.
 
 ## Getting started
 
